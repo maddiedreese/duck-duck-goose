@@ -17,8 +17,6 @@ Their names, outfits and scores stay with them when their roles change.
 [Watch the tag-back comparison](https://github.com/maddiedreese/duck-duck-goose/blob/main/demo/tag-back-comparison.mp4) ·
 [Recorded evidence](https://github.com/maddiedreese/duck-duck-goose/blob/main/demo/evidence.json)
 
-The implementation, evaluation, recordings and source packaging are complete.
-The HIM Arena entry has not yet been submitted.
 
 ## Run it
 
