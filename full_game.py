@@ -42,7 +42,7 @@ class FullGame:
         self.pending_catch_time=None
         a=float(self.world.seat_angles[self.selected_seat]);current=self.angles[self.picker]
         while a-.03<current+.1:a+=2*math.pi
-        self.target_angle=a;self.exit_stage={self.picker:'back',self.goose:'stand'}
+        self.target_angle=a;self.exit_stage={self.picker:'back',self.goose:'prepare_stand'};self.stand_time=None
         self.event('goose_selected',picker=self.picker,goose=self.goose,seat=self.selected_seat)
         self.transition('selecting')
 
@@ -64,8 +64,19 @@ class FullGame:
 
     def exit(self,role):
         stage=self.exit_stage[role];o=self.world.observe(role);r=np.linalg.norm(o.position[:2]);a=math.atan2(o.position[1],o.position[0])
+        if stage=='prepare_stand':
+            distance=np.linalg.norm(o.position[:2]-self.world.observe(self.picker).position[:2])
+            # The stand policy moves backwards: wait until the picker clears its path.
+            if self.time-self.opening_tag>1.2 and self.exit_stage[self.picker]=='run' and distance>.32:
+                self.exit_stage[role]='stand';self.stand_time=self.time
+                self.event('stand_started',duck=role,clearance_m=round(float(distance),5))
+            return Intent(mode='sit',direct_head=True)
         if stage=='stand':
-            if self.time-self.opening_tag>2.4:self.exit_stage[role]='back'
+            # Switch back to the walking controller once physically standing;
+            # continuing the transition network makes it drift into the runner.
+            if self.time-self.stand_time>.45 and o.position[2]>.108 and -o.gravity[2]>.97 and np.linalg.norm(o.gyro)<1.5:
+                self.exit_stage[role]='back'
+                self.event('standing_ready',duck=role,upright_cosine=round(float(-o.gravity[2]),5),angular_speed=round(float(np.linalg.norm(o.gyro)),5))
             return Intent(mode='stand',direct_head=True)
         if stage=='back':
             if r>self.world.radius-.015:self.exit_stage[role]='turn'
@@ -109,8 +120,18 @@ class FullGame:
             return self.face(role,heading),False
         if self.return_stage=='approach':
             cmd,arrived=self.approach(role,seat,.045)
-            if arrived:self.return_stage='sit';self.return_time=self.time
+            if arrived:self.return_stage='align'
             return cmd,False
+        if self.return_stage=='align':
+            # Sit facing the circle, rather than a noisy bearing to a nearby point.
+            if self.oriented(role,a+math.pi):
+                self.return_stage='settle';self.return_time=self.time
+            return self.face(role,a+math.pi),False
+        if self.return_stage=='settle':
+            if self.time-self.return_time>.8 and -o.gravity[2]>.97 and np.linalg.norm(o.gyro)<.5:
+                self.return_stage='sit';self.return_time=self.time
+                self.event('seat_settled',duck=role,upright_cosine=round(float(-o.gravity[2]),5),angular_speed=round(float(np.linalg.norm(o.gyro)),5))
+            return Intent(direct_head=True),False
         done=self.time-self.return_time>1.8 and o.position[2]<.078 and o.gravity[2]<-.85
         return Intent(mode='sit',direct_head=True),done
 
@@ -173,7 +194,7 @@ class FullGame:
             if self.exit_stage[self.picker]=='run' and self.chase_angle is None:
                 self.chase_angle=self.angles[self.picker];self.event('chase_started')
             if self.phase=='exiting' and all(s=='run' for s in self.exit_stage.values()):self.transition('chase')
-            if self.neutral and self.exit_stage[self.picker]=='run':commands[self.picker]=Intent()
+            if self.neutral and all(stage=='run' for stage in self.exit_stage.values()):commands[self.picker]=Intent()
             if self.phase=='chase' and not self.neutral and self.angles[self.picker]>=self.target_angle+2*math.pi-.18:
                 self.begin_return(self.picker,self.selected_seat);self.transition('returning')
             if self.phase=='returning':

@@ -28,7 +28,7 @@ dependencies. After that, simulation and inference run entirely locally.
 ./run.sh
 ```
 
-This creates `.venv`, installs `requirements.txt`, runs six tests, records a
+This creates `.venv`, installs `requirements.txt`, runs seven tests, records a
 three-round game and a tag-back comparison, then evaluates five more seeds.
 It produces:
 
@@ -40,20 +40,35 @@ It produces:
   calls, action bounds, watching motion ranges, versions and source hashes.
 - PNG frames showing the flock, opening tap, chase and final measured state.
 
-For evaluation without a display:
+For physics evaluation without video:
 
 ```sh
 ./run.sh --no-video
 ```
 
 Options: `--seed 0`, `--rounds 3`, `--benchmark 5`, `--output-dir results`,
-and `--skip-comparison-video`. The benchmark uses the next five seeds, with
+and `--skip-comparison-video`. For the full 20-seed validation, run
+`./run.sh --benchmark 20`. The default benchmark uses the next five seeds, with
 two rounds each. To use an existing environment, set `DUCK_PYTHON` to its
 Python executable. FFmpeg is supplied by `imageio-ffmpeg`.
 
-Tested on Apple Silicon macOS, Python 3.12.14, MuJoCo 3.12.0 and
-ONNX Runtime 1.29.0. Other operating systems and physics versions have not
-been verified; exact contact timing can vary across platforms.
+Tested on Apple Silicon macOS (Python 3.12.14) and HIM Ubuntu Linux x86_64
+(Python 3.12.3, NVIDIA L4), with MuJoCo 3.12.0 and ONNX Runtime 1.29.0.
+Other platforms and physics versions have not been verified. Exact physical
+trajectories and contact timing vary across platforms.
+
+On a minimal Ubuntu/HIM standard image, install rendering libraries once:
+
+```sh
+sudo apt-get update
+sudo apt-get install -y libegl1 libgl1 libopengl0 libegl-mesa0
+```
+
+Omit `sudo` when logged in as root. On headless Linux, `run.sh` selects EGL
+automatically for video runs; physics-only runs do not need an EGL context.
+The script defaults BLAS/OpenMP threads to one unless already configured.
+Keep the checkout, meshes and environment on local disk (for example `/tmp`
+on a disposable HIM machine), and copy results out before stopping it.
 
 ## What is scripted, learned, and physical?
 
@@ -115,7 +130,10 @@ create success contacts. The original robot colliders are retained underneath.
    for a physical beak tap. A small corrective step is allowed if the first
    reach falls short. No contact means no physical-tag event or chase start.
 3. The goose stands, and both ducks move to the outside running lane. The
-   goose's stand/reaction interval is 2.4 s. Typical forward command values
+   goose first recenters its head while seated and waits for the picker to enter
+   the running lane with at least 0.32 m clearance. It switches from the stand
+   network to walking once its measured height, upright posture and angular
+   velocity indicate it is standing. Typical forward command values
    are 0.40 m/s for the picker and 0.34 m/s for the goose; these are requested
    velocities, not measured speed guarantees. Turning and backing out use
    separate bounded commands. This gives the picker an escape opportunity.
@@ -123,8 +141,8 @@ create success contacts. The original robot colliders are retained underneath.
    picker when close. Tag-back detection re-arms only after the opening contact
    has been clear for half a second. Only a deliberate physical beak tag scores.
 5. The picker completes the circuit, approaches the empty seat, and must
-   physically sit with an upright body before earning the escape point. It
-   becomes the seated duck; the goose becomes the next picker.
+   face inward, stop and settle, then physically sit with an upright body before
+   earning the escape point. It becomes the seated duck; the goose becomes the next picker.
 6. On a catch, the goose earns a point immediately. The ducks back away, the
    goose returns to its seat and sits, and the same picker starts another round.
 7. A fall, leaving the bounded play area, a failed opening tap or a round timeout
@@ -137,32 +155,45 @@ settings are part of the published task, not a general robotics benchmark.
 
 ## Verification
 
-| Check | Recorded result |
-| --- | --- |
-| Reference, seed 0 | 3 complete rounds in 177.64 simulated seconds |
-| Selected geese in the reference | Rosie, Puddle, Butter |
-| Additional seeds 1–5 | 5 / 5 runs complete; 10 / 10 rounds complete |
-| Runner navigation disabled | Physical beak catch at 54.60 s |
-| Reach disabled | No opening tap; stops at 38.92 s |
-| Catch / separate / return / resume test | Two consecutive caught rounds complete |
-| Automated tests | 6 passed |
+| Check | Apple Silicon macOS | HIM Linux x86_64 / NVIDIA L4 |
+| --- | --- | --- |
+| Reference, seed 0 | 3 rounds in 187.74 s | 3 rounds in 186.86 s |
+| Additional seeds 1–20, two rounds each | 20/20 runs; 40/40 rounds | 20/20 runs; 40/40 rounds |
+| Runner navigation disabled after both ducks exit | Beak catch at 53.62 s | Beak catch at 49.52 s |
+| Reach disabled | No tap; stops at 38.92 s | No tap; stops at 38.98 s |
+| Catch / separate / return / resume | Two caught rounds complete | Two caught rounds complete |
+| Automated tests | 7 passed | 7 passed |
+
+Times are simulated seconds. The reference selects Rosie, Puddle and Butter.
+The downloadable reference and comparison videos were rendered on HIM Linux.
 
 The default reference completes three rounds with different geese and role
 changes. Two causal comparisons are included: disabling the runner's navigation
-leads to a beak catch, and disabling the reach prevents the opening tap.
-Five additional seeds are evaluated with two rounds each; every result is
-retained in `evidence.json`. These seeds vary the selection sequence, not robot
-hardware, terrain, sensor quality or actuator parameters.
+once both ducks have exited leads to a beak catch, and disabling the reach
+prevents the opening tap. The full validation evaluates twenty additional seeds
+with two rounds each; every result is retained in `evidence.json`. Any incomplete
+trial makes the command exit with a failure after saving the evidence. These seeds vary the selection sequence, not robot hardware, terrain, sensor quality or actuator parameters.
 
-The six tests cover multi-round role changes and measured tags, the neutral
+The seven tests cover multi-round role changes and measured tags, the neutral
 runner, the disabled reach, catch/separate/return/resume behavior, stable
 watching with real head-joint motion and free bases, and reproducible/varied
-selection. They also check the absence of external forces and the passive
+selection. A regression test repeats the five seeds that failed in the original
+Linux build. They also check the absence of external forces and the passive
 propeller motion.
 
-The source ZIP was also extracted into a separate directory and rerun using
-the pinned local environment. All six tests passed, and the reference and
-both causal comparisons reproduced their recorded outcomes and timings.
+The final source ZIP was extracted into a separate directory on the HIM machine
+and run with `./run.sh --benchmark 20` using the pinned environment. All seven
+tests, the reference, both causal comparisons and all twenty trial seeds passed.
+The headless launcher selected EGL automatically. Logs and both platforms' raw
+evidence are in the repository's `demo/validation/` directory.
+
+The earlier public build passed on the original Mac but failed two of six tests
+and five of twenty two-round trials on HIM Linux. The repair gates standing on
+real clearance and posture, aligns and settles before sitting, and changes the
+neutral comparison to disable navigation only after both ducks exit. Physics,
+robot colliders, checkpoints and costumes are unchanged. The added regression
+cases and full twenty-seed suite pass on both tested platforms; this is not a
+claim of reliability on every platform, seed or terrain.
 
 The reference video is recorded from the same episode that produces its
 evidence. Both videos use 25 fps at approximately real-time speed, with a

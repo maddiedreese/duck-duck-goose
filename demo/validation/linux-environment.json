@@ -1,0 +1,12 @@
+{
+  "platform": "Linux-6.8.0-40-generic-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+  "mujoco": "3.12.0",
+  "onnxruntime": "1.29.0",
+  "numpy": "2.5.2",
+  "graphics": {
+    "vendor": "NVIDIA Corporation",
+    "renderer": "NVIDIA L4/PCIe/SSE2",
+    "version": "4.6.0 NVIDIA 550.127.05"
+  }
+}

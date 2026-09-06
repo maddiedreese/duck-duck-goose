@@ -34,7 +34,7 @@ class FullRecorder:
         d=ImageDraw.Draw(canvas);d.rectangle((960,80,1280,800),fill=PAPER)
         d.line((960,104,960,780),fill='#d8ded2')
         d.text((28,11),'Duck Duck Goose',font=font(34,True),fill=INK)
-        subtitle='Comparison: runner navigation disabled after the opening tap.' if g.neutral else 'Six little robots. One very important boop.'
+        subtitle='Comparison: runner navigation disabled once both ducks exit.' if g.neutral else 'Six little robots. One very important boop.'
         d.text((30,54),subtitle,font=font(14),fill=MUTED)
         d.rounded_rectangle((1090,24,1255,55),radius=15,fill=INK)
         d.text((1105,30),f'ROUND {g.round_index or 1} OF {g.round_limit}',font=font(13,True),fill=PAPER)

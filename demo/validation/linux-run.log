@@ -1,0 +1,82 @@
+test_caught_goose_returns_and_next_round_starts (test_game.GameTests.test_caught_goose_returns_and_next_round_starts) ... ok
+test_disabling_reach_prevents_opening_tap (test_game.GameTests.test_disabling_reach_prevents_opening_tap) ... ok
+test_neutral_runner_gets_physical_beak_tag (test_game.GameTests.test_neutral_runner_gets_physical_beak_tag) ... ok
+test_previous_linux_failure_seeds_finish_two_rounds (test_game.GameTests.test_previous_linux_failure_seeds_finish_two_rounds) ... ok
+test_seeded_selection_is_reproducible_and_varied (test_game.GameTests.test_seeded_selection_is_reproducible_and_varied) ... ok
+test_three_rounds_real_tags_and_role_swaps (test_game.GameTests.test_three_rounds_real_tags_and_role_swaps) ... ok
+test_watchers_remain_seated_and_turn_real_joints (test_game.GameTests.test_watchers_remain_seated_and_turn_real_joints) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 104.876s
+
+OK
+Reference: complete, 3 rounds, 186.86 simulated seconds
+Seed 1: complete, 2 rounds
+Seed 2: complete, 2 rounds
+Seed 3: complete, 2 rounds
+Seed 4: complete, 2 rounds
+Seed 5: complete, 2 rounds
+Seed 6: complete, 2 rounds
+Seed 7: complete, 2 rounds
+Seed 8: complete, 2 rounds
+Seed 9: complete, 2 rounds
+Seed 10: complete, 2 rounds
+Seed 11: complete, 2 rounds
+Seed 12: complete, 2 rounds
+Seed 13: complete, 2 rounds
+Seed 14: complete, 2 rounds
+Seed 15: complete, 2 rounds
+Seed 16: complete, 2 rounds
+Seed 17: complete, 2 rounds
+Seed 18: complete, 2 rounds
+Seed 19: complete, 2 rounds
+Seed 20: complete, 2 rounds
+{
+  "reference_rounds": [
+    {
+      "round": 1,
+      "picker": "duck0",
+      "goose": "duck5",
+      "seat": 4,
+      "result": "escaped",
+      "winner": "duck0",
+      "opening_tag_s": 35.16,
+      "finished_s": 72.34,
+      "scored_s": 72.34,
+      "duration_s": 69.32
+    },
+    {
+      "round": 2,
+      "picker": "duck5",
+      "goose": "duck3",
+      "seat": 2,
+      "result": "escaped",
+      "winner": "duck5",
+      "opening_tag_s": 98.68,
+      "finished_s": 136.08,
+      "scored_s": 136.08,
+      "duration_s": 62.22
+    },
+    {
+      "round": 3,
+      "picker": "duck3",
+      "goose": "duck4",
+      "seat": 3,
+      "result": "escaped",
+      "winner": "duck3",
+      "opening_tag_s": 148.96,
+      "finished_s": 186.84,
+      "scored_s": 186.84,
+      "duration_s": 49.24
+    }
+  ],
+  "neutral_catch_s": 49.52,
+  "disabled_tag_result": "opening_tag_disabled",
+  "variation_summary": {
+    "completed_runs": 20,
+    "runs": 20,
+    "completed_rounds": 40
+  },
+  "evidence": "/workspace/duck-delivery/results/evidence.json",
+  "video": "/workspace/duck-delivery/results/result.mp4"
+}

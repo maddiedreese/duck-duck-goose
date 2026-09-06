@@ -1,0 +1,13 @@
+2026-09-05 22:06:55.197 python[55285:823537] 2026-09-05 22:06:55.197690 [W:onnxruntime:Default, telemetry.cc:800 operator()] Failed to persist telemetry device ID; using an in-memory identifier
+test_caught_goose_returns_and_next_round_starts (test_game.GameTests.test_caught_goose_returns_and_next_round_starts) ... ok
+test_disabling_reach_prevents_opening_tap (test_game.GameTests.test_disabling_reach_prevents_opening_tap) ... ok
+test_neutral_runner_gets_physical_beak_tag (test_game.GameTests.test_neutral_runner_gets_physical_beak_tag) ... ok
+test_previous_linux_failure_seeds_finish_two_rounds (test_game.GameTests.test_previous_linux_failure_seeds_finish_two_rounds) ... ok
+test_seeded_selection_is_reproducible_and_varied (test_game.GameTests.test_seeded_selection_is_reproducible_and_varied) ... ok
+test_three_rounds_real_tags_and_role_swaps (test_game.GameTests.test_three_rounds_real_tags_and_role_swaps) ... ok
+test_watchers_remain_seated_and_turn_real_joints (test_game.GameTests.test_watchers_remain_seated_and_turn_real_joints) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 39.614s
+
+OK

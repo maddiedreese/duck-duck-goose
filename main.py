@@ -67,6 +67,7 @@ def main():
     }
     (out/'evidence.json').write_text(json.dumps(evidence,indent=2)+'\n')
     assert reference['result']=='complete' and len(reference['rounds'])==args.rounds,'Reference game incomplete; evidence saved'
+    assert all(r['result']=='complete' and len(r['rounds'])==2 for r in trials),'Seeded game incomplete; evidence saved'
     assert neutral['result']=='complete' and neutral['rounds'][0]['result']=='caught','Neutral navigation comparison failed'
     assert disabled['result']=='opening_tag_disabled','Disabled reaching gesture unexpectedly succeeded'
     assert not any(e['event']=='physical_beak_tap' for e in disabled['events'])

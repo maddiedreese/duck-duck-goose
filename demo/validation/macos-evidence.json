@@ -1,0 +1,7768 @@
+{
+  "reference": {
+    "seed": 0,
+    "result": "complete",
+    "rounds": [
+      {
+        "round": 1,
+        "picker": "duck0",
+        "goose": "duck5",
+        "seat": 4,
+        "result": "escaped",
+        "winner": "duck0",
+        "opening_tag_s": 35.1,
+        "finished_s": 73.02,
+        "scored_s": 73.02,
+        "duration_s": 70.0
+      },
+      {
+        "round": 2,
+        "picker": "duck5",
+        "goose": "duck3",
+        "seat": 2,
+        "result": "escaped",
+        "winner": "duck5",
+        "opening_tag_s": 98.84,
+        "finished_s": 136.64,
+        "scored_s": 136.64,
+        "duration_s": 62.1
+      },
+      {
+        "round": 3,
+        "picker": "duck3",
+        "goose": "duck4",
+        "seat": 3,
+        "result": "escaped",
+        "winner": "duck3",
+        "opening_tag_s": 149.86,
+        "finished_s": 187.72,
+        "scored_s": 187.72,
+        "duration_s": 49.56
+      }
+    ],
+    "events": [
+      {
+        "event": "goose_selected",
+        "time_s": 3.02,
+        "round": 1,
+        "picker": "duck0",
+        "goose": "duck5",
+        "seat": 4
+      },
+      {
+        "event": "selecting",
+        "time_s": 3.02,
+        "round": 1
+      },
+      {
+        "event": "turn_to_goose",
+        "time_s": 32.0,
+        "round": 1
+      },
+      {
+        "event": "approach_goose",
+        "time_s": 34.02,
+        "round": 1
+      },
+      {
+        "event": "beak_tap",
+        "time_s": 34.9,
+        "round": 1
+      },
+      {
+        "event": "physical_beak_tap",
+        "time_s": 35.1,
+        "round": 1,
+        "actor": "duck0",
+        "target": "duck5",
+        "contact": {
+          "actor_mesh": "jaw",
+          "target_mesh": "top_head_shell",
+          "contact_position_m": [
+            0.17655,
+            -0.56256,
+            0.197
+          ],
+          "distance_from_beak_tip_m": 0.00688
+        }
+      },
+      {
+        "event": "exiting",
+        "time_s": 35.1,
+        "round": 1
+      },
+      {
+        "event": "chase_started",
+        "time_s": 37.8,
+        "round": 1
+      },
+      {
+        "event": "stand_started",
+        "time_s": 39.42,
+        "round": 1,
+        "duck": "duck5",
+        "clearance_m": 0.32096
+      },
+      {
+        "event": "standing_ready",
+        "time_s": 40.12,
+        "round": 1,
+        "duck": "duck5",
+        "upright_cosine": 0.99949,
+        "angular_speed": 1.22447
+      },
+      {
+        "event": "chase",
+        "time_s": 43.76,
+        "round": 1
+      },
+      {
+        "event": "returning",
+        "time_s": 65.66,
+        "round": 1
+      },
+      {
+        "event": "seat_settled",
+        "time_s": 71.2,
+        "round": 1,
+        "duck": "duck0",
+        "upright_cosine": 0.99938,
+        "angular_speed": 0.0136
+      },
+      {
+        "event": "escaped",
+        "time_s": 73.02,
+        "round": 1,
+        "winner": "duck0"
+      },
+      {
+        "event": "intermission",
+        "time_s": 73.02,
+        "round": 1
+      },
+      {
+        "event": "goose_selected",
+        "time_s": 74.54,
+        "round": 2,
+        "picker": "duck5",
+        "goose": "duck3",
+        "seat": 2
+      },
+      {
+        "event": "selecting",
+        "time_s": 74.54,
+        "round": 2
+      },
+      {
+        "event": "turn_to_goose",
+        "time_s": 95.78,
+        "round": 2
+      },
+      {
+        "event": "approach_goose",
+        "time_s": 97.82,
+        "round": 2
+      },
+      {
+        "event": "beak_tap",
+        "time_s": 98.62,
+        "round": 2
+      },
+      {
+        "event": "physical_beak_tap",
+        "time_s": 98.84,
+        "round": 2,
+        "actor": "duck5",
+        "target": "duck3",
+        "contact": {
+          "actor_mesh": "jaw",
+          "target_mesh": "top_head_shell",
+          "contact_position_m": [
+            -0.47928,
+            0.35628,
+            0.19328
+          ],
+          "distance_from_beak_tip_m": 0.00612
+        }
+      },
+      {
+        "event": "exiting",
+        "time_s": 98.84,
+        "round": 2
+      },
+      {
+        "event": "chase_started",
+        "time_s": 101.74,
+        "round": 2
+      },
+      {
+        "event": "stand_started",
+        "time_s": 103.52,
+        "round": 2,
+        "duck": "duck3",
+        "clearance_m": 0.32049
+      },
+      {
+        "event": "standing_ready",
+        "time_s": 104.38,
+        "round": 2,
+        "duck": "duck3",
+        "upright_cosine": 0.99334,
+        "angular_speed": 1.46787
+      },
+      {
+        "event": "chase",
+        "time_s": 108.08,
+        "round": 2
+      },
+      {
+        "event": "returning",
+        "time_s": 129.72,
+        "round": 2
+      },
+      {
+        "event": "seat_settled",
+        "time_s": 134.82,
+        "round": 2,
+        "duck": "duck5",
+        "upright_cosine": 0.99938,
+        "angular_speed": 0.03094
+      },
+      {
+        "event": "escaped",
+        "time_s": 136.64,
+        "round": 2,
+        "winner": "duck5"
+      },
+      {
+        "event": "intermission",
+        "time_s": 136.64,
+        "round": 2
+      },
+      {
+        "event": "goose_selected",
+        "time_s": 138.16,
+        "round": 3,
+        "picker": "duck3",
+        "goose": "duck4",
+        "seat": 3
+      },
+      {
+        "event": "selecting",
+        "time_s": 138.16,
+        "round": 3
+      },
+      {
+        "event": "turn_to_goose",
+        "time_s": 146.54,
+        "round": 3
+      },
+      {
+        "event": "approach_goose",
+        "time_s": 148.74,
+        "round": 3
+      },
+      {
+        "event": "beak_tap",
+        "time_s": 149.64,
+        "round": 3
+      },
+      {
+        "event": "physical_beak_tap",
+        "time_s": 149.86,
+        "round": 3,
+        "actor": "duck3",
+        "target": "duck4",
+        "contact": {
+          "actor_mesh": "jaw",
+          "target_mesh": "top_head_shell",
+          "contact_position_m": [
+            -0.48093,
+            -0.34459,
+            0.19543
+          ],
+          "distance_from_beak_tip_m": 0.00801
+        }
+      },
+      {
+        "event": "exiting",
+        "time_s": 149.86,
+        "round": 3
+      },
+      {
+        "event": "chase_started",
+        "time_s": 152.48,
+        "round": 3
+      },
+      {
+        "event": "stand_started",
+        "time_s": 154.18,
+        "round": 3,
+        "duck": "duck4",
+        "clearance_m": 0.32421
+      },
+      {
+        "event": "standing_ready",
+        "time_s": 154.66,
+        "round": 3,
+        "duck": "duck4",
+        "upright_cosine": 0.99618,
+        "angular_speed": 1.07053
+      },
+      {
+        "event": "chase",
+        "time_s": 157.68,
+        "round": 3
+      },
+      {
+        "event": "returning",
+        "time_s": 180.46,
+        "round": 3
+      },
+      {
+        "event": "seat_settled",
+        "time_s": 185.9,
+        "round": 3,
+        "duck": "duck3",
+        "upright_cosine": 0.99933,
+        "angular_speed": 0.0022
+      },
+      {
+        "event": "escaped",
+        "time_s": 187.72,
+        "round": 3,
+        "winner": "duck3"
+      },
+      {
+        "event": "complete",
+        "time_s": 187.72,
+        "round": 3
+      }
+    ],
+    "neutral_navigation": false,
+    "disabled_tag_gesture": false,
+    "scores": {
+      "duck0": 1,
+      "duck1": 0,
+      "duck2": 0,
+      "duck3": 1,
+      "duck4": 0,
+      "duck5": 1
+    },
+    "elapsed_s": 187.74,
+    "control_steps": 9387,
+    "policy_calls": {
+      "duck0": 9387,
+      "duck1": 9387,
+      "duck2": 9387,
+      "duck3": 9387,
+      "duck4": 9387,
+      "duck5": 9387
+    },
+    "mode_calls": {
+      "duck0": {
+        "walk": 3561,
+        "sit": 5826
+      },
+      "duck1": {
+        "sit": 9387
+      },
+      "duck2": {
+        "sit": 9387
+      },
+      "duck3": {
+        "sit": 5268,
+        "stand": 43,
+        "walk": 4076
+      },
+      "duck4": {
+        "sit": 7710,
+        "stand": 24,
+        "walk": 1653
+      },
+      "duck5": {
+        "sit": 4617,
+        "stand": 35,
+        "walk": 4735
+      }
+    },
+    "joint_target_range_rad": {
+      "duck0": [
+        -1.52138,
+        1.57126
+      ],
+      "duck1": [
+        -1.53637,
+        1.59039
+      ],
+      "duck2": [
+        -1.52768,
+        1.58483
+      ],
+      "duck3": [
+        -1.65802,
+        1.88195
+      ],
+      "duck4": [
+        -1.46537,
+        1.56243
+      ],
+      "duck5": [
+        -1.73136,
+        1.78326
+      ]
+    },
+    "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+    "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+    "distance_m": {
+      "duck0": 12.6959,
+      "duck1": 0.1147,
+      "duck2": 0.1176,
+      "duck3": 15.1735,
+      "duck4": 6.204,
+      "duck5": 17.6383
+    },
+    "minimum_upright_cosine": {
+      "duck0": 0.990509863948918,
+      "duck1": 0.9890709794590371,
+      "duck2": 0.9895473699110258,
+      "duck3": 0.9846981557340598,
+      "duck4": 0.9862910260276959,
+      "duck5": 0.9728131842076292
+    },
+    "watch_head_yaw_range_rad": {
+      "duck0": [
+        -1.349,
+        1.352
+      ],
+      "duck1": [
+        -1.35,
+        1.351
+      ],
+      "duck2": [
+        -1.349,
+        1.351
+      ],
+      "duck3": [
+        -1.348,
+        1.351
+      ],
+      "duck4": [
+        -1.35,
+        1.351
+      ],
+      "duck5": [
+        -1.346,
+        1.351
+      ]
+    }
+  },
+  "neutral_navigation_comparison": {
+    "seed": 0,
+    "result": "complete",
+    "rounds": [
+      {
+        "round": 1,
+        "picker": "duck0",
+        "goose": "duck5",
+        "seat": 4,
+        "result": "caught",
+        "winner": "duck5",
+        "opening_tag_s": 35.1,
+        "finished_s": 53.62,
+        "scored_s": 53.62,
+        "duration_s": 50.6
+      }
+    ],
+    "events": [
+      {
+        "event": "goose_selected",
+        "time_s": 3.02,
+        "round": 1,
+        "picker": "duck0",
+        "goose": "duck5",
+        "seat": 4
+      },
+      {
+        "event": "selecting",
+        "time_s": 3.02,
+        "round": 1
+      },
+      {
+        "event": "turn_to_goose",
+        "time_s": 32.0,
+        "round": 1
+      },
+      {
+        "event": "approach_goose",
+        "time_s": 34.02,
+        "round": 1
+      },
+      {
+        "event": "beak_tap",
+        "time_s": 34.9,
+        "round": 1
+      },
+      {
+        "event": "physical_beak_tap",
+        "time_s": 35.1,
+        "round": 1,
+        "actor": "duck0",
+        "target": "duck5",
+        "contact": {
+          "actor_mesh": "jaw",
+          "target_mesh": "top_head_shell",
+          "contact_position_m": [
+            0.17655,
+            -0.56256,
+            0.197
+          ],
+          "distance_from_beak_tip_m": 0.00688
+        }
+      },
+      {
+        "event": "exiting",
+        "time_s": 35.1,
+        "round": 1
+      },
+      {
+        "event": "chase_started",
+        "time_s": 37.8,
+        "round": 1
+      },
+      {
+        "event": "stand_started",
+        "time_s": 39.42,
+        "round": 1,
+        "duck": "duck5",
+        "clearance_m": 0.32096
+      },
+      {
+        "event": "standing_ready",
+        "time_s": 40.12,
+        "round": 1,
+        "duck": "duck5",
+        "upright_cosine": 0.99949,
+        "angular_speed": 1.22447
+      },
+      {
+        "event": "chase",
+        "time_s": 43.76,
+        "round": 1
+      },
+      {
+        "event": "physical_beak_tag_back",
+        "time_s": 53.62,
+        "round": 1,
+        "actor": "duck5",
+        "target": "duck0",
+        "contact": {
+          "actor_mesh": "bottom_head_shell",
+          "target_mesh": "bottom_head_shell",
+          "contact_position_m": [
+            0.74539,
+            0.0213,
+            0.2301
+          ],
+          "distance_from_beak_tip_m": 0.00518
+        }
+      },
+      {
+        "event": "caught",
+        "time_s": 53.62,
+        "round": 1,
+        "winner": "duck5"
+      },
+      {
+        "event": "complete",
+        "time_s": 53.62,
+        "round": 1
+      }
+    ],
+    "neutral_navigation": true,
+    "disabled_tag_gesture": false,
+    "scores": {
+      "duck0": 0,
+      "duck1": 0,
+      "duck2": 0,
+      "duck3": 0,
+      "duck4": 0,
+      "duck5": 1
+    },
+    "elapsed_s": 53.62,
+    "control_steps": 2681,
+    "policy_calls": {
+      "duck0": 2681,
+      "duck1": 2681,
+      "duck2": 2681,
+      "duck3": 2681,
+      "duck4": 2681,
+      "duck5": 2681
+    },
+    "mode_calls": {
+      "duck0": {
+        "walk": 2681
+      },
+      "duck1": {
+        "sit": 2681
+      },
+      "duck2": {
+        "sit": 2681
+      },
+      "duck3": {
+        "sit": 2681
+      },
+      "duck4": {
+        "sit": 2681
+      },
+      "duck5": {
+        "sit": 1972,
+        "stand": 35,
+        "walk": 674
+      }
+    },
+    "joint_target_range_rad": {
+      "duck0": [
+        -1.23823,
+        1.07623
+      ],
+      "duck1": [
+        -1.53637,
+        1.59039
+      ],
+      "duck2": [
+        -1.52768,
+        1.58483
+      ],
+      "duck3": [
+        -1.54257,
+        1.59539
+      ],
+      "duck4": [
+        -1.45811,
+        1.56243
+      ],
+      "duck5": [
+        -1.73136,
+        1.78326
+      ]
+    },
+    "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+    "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+    "distance_m": {
+      "duck0": 7.5597,
+      "duck1": 0.0936,
+      "duck2": 0.0902,
+      "duck3": 0.0896,
+      "duck4": 0.083,
+      "duck5": 2.266
+    },
+    "minimum_upright_cosine": {
+      "duck0": 0.996386125810028,
+      "duck1": 0.9890709794590371,
+      "duck2": 0.9895473699110258,
+      "duck3": 0.990352603009052,
+      "duck4": 0.9925029875044316,
+      "duck5": 0.9728131842076292
+    },
+    "watch_head_yaw_range_rad": {
+      "duck0": [
+        null,
+        null
+      ],
+      "duck1": [
+        -1.348,
+        1.351
+      ],
+      "duck2": [
+        -1.348,
+        1.351
+      ],
+      "duck3": [
+        -1.348,
+        1.351
+      ],
+      "duck4": [
+        -1.348,
+        1.351
+      ],
+      "duck5": [
+        -1.346,
+        0.001
+      ]
+    }
+  },
+  "disabled_tag_comparison": {
+    "seed": 0,
+    "result": "opening_tag_disabled",
+    "rounds": [],
+    "events": [
+      {
+        "event": "goose_selected",
+        "time_s": 3.02,
+        "round": 1,
+        "picker": "duck0",
+        "goose": "duck5",
+        "seat": 4
+      },
+      {
+        "event": "selecting",
+        "time_s": 3.02,
+        "round": 1
+      },
+      {
+        "event": "turn_to_goose",
+        "time_s": 32.0,
+        "round": 1
+      },
+      {
+        "event": "approach_goose",
+        "time_s": 34.02,
+        "round": 1
+      },
+      {
+        "event": "beak_tap",
+        "time_s": 34.9,
+        "round": 1
+      }
+    ],
+    "neutral_navigation": false,
+    "disabled_tag_gesture": true,
+    "scores": {
+      "duck0": 0,
+      "duck1": 0,
+      "duck2": 0,
+      "duck3": 0,
+      "duck4": 0,
+      "duck5": 0
+    },
+    "elapsed_s": 38.92,
+    "control_steps": 1946,
+    "policy_calls": {
+      "duck0": 1946,
+      "duck1": 1946,
+      "duck2": 1946,
+      "duck3": 1946,
+      "duck4": 1946,
+      "duck5": 1946
+    },
+    "mode_calls": {
+      "duck0": {
+        "walk": 1946
+      },
+      "duck1": {
+        "sit": 1946
+      },
+      "duck2": {
+        "sit": 1946
+      },
+      "duck3": {
+        "sit": 1946
+      },
+      "duck4": {
+        "sit": 1946
+      },
+      "duck5": {
+        "sit": 1946
+      }
+    },
+    "joint_target_range_rad": {
+      "duck0": [
+        -0.82533,
+        0.8796
+      ],
+      "duck1": [
+        -1.53637,
+        1.59039
+      ],
+      "duck2": [
+        -1.52768,
+        1.58483
+      ],
+      "duck3": [
+        -1.54257,
+        1.59539
+      ],
+      "duck4": [
+        -1.45811,
+        1.56243
+      ],
+      "duck5": [
+        -1.46393,
+        1.53579
+      ]
+    },
+    "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+    "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+    "distance_m": {
+      "duck0": 5.8645,
+      "duck1": 0.0889,
+      "duck2": 0.0886,
+      "duck3": 0.0887,
+      "duck4": 0.0819,
+      "duck5": 0.08
+    },
+    "minimum_upright_cosine": {
+      "duck0": 0.9967925473134472,
+      "duck1": 0.9890709794590371,
+      "duck2": 0.9895473699110258,
+      "duck3": 0.990352603009052,
+      "duck4": 0.9925029875044316,
+      "duck5": 0.9921920120479586
+    },
+    "watch_head_yaw_range_rad": {
+      "duck0": [
+        null,
+        null
+      ],
+      "duck1": [
+        -1.348,
+        1.351
+      ],
+      "duck2": [
+        -1.348,
+        1.351
+      ],
+      "duck3": [
+        -1.348,
+        1.351
+      ],
+      "duck4": [
+        -1.348,
+        1.351
+      ],
+      "duck5": [
+        -1.346,
+        -0.0
+      ]
+    }
+  },
+  "variation_trials": [
+    {
+      "seed": 1,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck3",
+          "seat": 2,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 22.5,
+          "finished_s": 59.82,
+          "scored_s": 59.82,
+          "duration_s": 56.8
+        },
+        {
+          "round": 2,
+          "picker": "duck3",
+          "goose": "duck4",
+          "seat": 3,
+          "result": "escaped",
+          "winner": "duck3",
+          "opening_tag_s": 73.02,
+          "finished_s": 110.94,
+          "scored_s": 110.94,
+          "duration_s": 49.62
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck3",
+          "seat": 2
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 19.18,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 21.44,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 22.28,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 22.5,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck3",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              -0.47671,
+              0.3558,
+              0.19558
+            ],
+            "distance_from_beak_tip_m": 0.006
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 22.5,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 25.16,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 26.8,
+          "round": 1,
+          "duck": "duck3",
+          "clearance_m": 0.32129
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 27.26,
+          "round": 1,
+          "duck": "duck3",
+          "upright_cosine": 0.99851,
+          "angular_speed": 1.01092
+        },
+        {
+          "event": "chase",
+          "time_s": 30.76,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 52.9,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 58.02,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.9994,
+          "angular_speed": 0.00993
+        },
+        {
+          "event": "escaped",
+          "time_s": 59.82,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 59.82,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 61.32,
+          "round": 2,
+          "picker": "duck3",
+          "goose": "duck4",
+          "seat": 3
+        },
+        {
+          "event": "selecting",
+          "time_s": 61.32,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 69.96,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 71.98,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 72.82,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 73.02,
+          "round": 2,
+          "actor": "duck3",
+          "target": "duck4",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              -0.48215,
+              -0.34097,
+              0.19618
+            ],
+            "distance_from_beak_tip_m": 0.0086
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 73.02,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 75.66,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 77.08,
+          "round": 2,
+          "duck": "duck4",
+          "clearance_m": 0.32056
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 77.56,
+          "round": 2,
+          "duck": "duck4",
+          "upright_cosine": 0.99619,
+          "angular_speed": 1.07827
+        },
+        {
+          "event": "chase",
+          "time_s": 80.84,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 103.56,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 109.12,
+          "round": 2,
+          "duck": "duck3",
+          "upright_cosine": 0.99934,
+          "angular_speed": 0.01443
+        },
+        {
+          "event": "escaped",
+          "time_s": 110.94,
+          "round": 2,
+          "winner": "duck3"
+        },
+        {
+          "event": "complete",
+          "time_s": 110.94,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 0,
+        "duck2": 0,
+        "duck3": 1,
+        "duck4": 0,
+        "duck5": 0
+      },
+      "elapsed_s": 110.96,
+      "control_steps": 5548,
+      "policy_calls": {
+        "duck0": 5548,
+        "duck1": 5548,
+        "duck2": 5548,
+        "duck3": 5548,
+        "duck4": 5548,
+        "duck5": 5548
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 2902,
+          "sit": 2646
+        },
+        "duck1": {
+          "sit": 5548
+        },
+        "duck2": {
+          "sit": 5548
+        },
+        "duck3": {
+          "sit": 1432,
+          "stand": 23,
+          "walk": 4093
+        },
+        "duck4": {
+          "sit": 3855,
+          "stand": 24,
+          "walk": 1669
+        },
+        "duck5": {
+          "sit": 5548
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.51875,
+          1.55773
+        ],
+        "duck1": [
+          -1.53637,
+          1.59039
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.54257,
+          1.59539
+        ],
+        "duck4": [
+          -1.46538,
+          1.56243
+        ],
+        "duck5": [
+          -1.46393,
+          1.53579
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 10.2311,
+        "duck1": 0.1051,
+        "duck2": 0.1061,
+        "duck3": 15.161,
+        "duck4": 6.2232,
+        "duck5": 0.0943
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.9902085052817834,
+        "duck1": 0.9890709794590371,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.9880993805244389,
+        "duck4": 0.9861248006260104,
+        "duck5": 0.9921920120479586
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.349,
+          1.35
+        ],
+        "duck1": [
+          -1.348,
+          1.351
+        ],
+        "duck2": [
+          -1.349,
+          1.351
+        ],
+        "duck3": [
+          -0.109,
+          0.17
+        ],
+        "duck4": [
+          -1.345,
+          1.35
+        ],
+        "duck5": [
+          -1.35,
+          1.349
+        ]
+      }
+    },
+    {
+      "seed": 2,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck5",
+          "seat": 4,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 35.1,
+          "finished_s": 73.02,
+          "scored_s": 73.02,
+          "duration_s": 70.0
+        },
+        {
+          "round": 2,
+          "picker": "duck5",
+          "goose": "duck2",
+          "seat": 1,
+          "result": "escaped",
+          "winner": "duck5",
+          "opening_tag_s": 92.36,
+          "finished_s": 130.22,
+          "scored_s": 130.22,
+          "duration_s": 55.68
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck5",
+          "seat": 4
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 32.0,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 34.02,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 34.9,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 35.1,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck5",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.17655,
+              -0.56256,
+              0.197
+            ],
+            "distance_from_beak_tip_m": 0.00688
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 35.1,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 37.8,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 39.42,
+          "round": 1,
+          "duck": "duck5",
+          "clearance_m": 0.32096
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 40.12,
+          "round": 1,
+          "duck": "duck5",
+          "upright_cosine": 0.99949,
+          "angular_speed": 1.22447
+        },
+        {
+          "event": "chase",
+          "time_s": 43.76,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 65.66,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 71.2,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.99938,
+          "angular_speed": 0.0136
+        },
+        {
+          "event": "escaped",
+          "time_s": 73.02,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 73.02,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 74.54,
+          "round": 2,
+          "picker": "duck5",
+          "goose": "duck2",
+          "seat": 1
+        },
+        {
+          "event": "selecting",
+          "time_s": 74.54,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 89.34,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 91.32,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 92.16,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 92.36,
+          "round": 2,
+          "actor": "duck5",
+          "target": "duck2",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.19265,
+              0.55888,
+              0.19765
+            ],
+            "distance_from_beak_tip_m": 0.00716
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 92.36,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 95.28,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 96.72,
+          "round": 2,
+          "duck": "duck2",
+          "clearance_m": 0.32208
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 97.18,
+          "round": 2,
+          "duck": "duck2",
+          "upright_cosine": 0.99609,
+          "angular_speed": 1.28277
+        },
+        {
+          "event": "chase",
+          "time_s": 100.32,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 122.96,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 128.4,
+          "round": 2,
+          "duck": "duck5",
+          "upright_cosine": 0.99937,
+          "angular_speed": 0.02346
+        },
+        {
+          "event": "escaped",
+          "time_s": 130.22,
+          "round": 2,
+          "winner": "duck5"
+        },
+        {
+          "event": "complete",
+          "time_s": 130.22,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 0,
+        "duck2": 0,
+        "duck3": 0,
+        "duck4": 0,
+        "duck5": 1
+      },
+      "elapsed_s": 130.24,
+      "control_steps": 6512,
+      "policy_calls": {
+        "duck0": 6512,
+        "duck1": 6512,
+        "duck2": 6512,
+        "duck3": 6512,
+        "duck4": 6512,
+        "duck5": 6512
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 3561,
+          "sit": 2951
+        },
+        "duck1": {
+          "sit": 6512
+        },
+        "duck2": {
+          "sit": 4837,
+          "stand": 23,
+          "walk": 1652
+        },
+        "duck3": {
+          "sit": 6512
+        },
+        "duck4": {
+          "sit": 6512
+        },
+        "duck5": {
+          "sit": 2063,
+          "stand": 35,
+          "walk": 4414
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.52138,
+          1.57126
+        ],
+        "duck1": [
+          -1.53637,
+          1.59039
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.54257,
+          1.59539
+        ],
+        "duck4": [
+          -1.45811,
+          1.56243
+        ],
+        "duck5": [
+          -1.73136,
+          1.78326
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 12.6865,
+        "duck1": 0.1065,
+        "duck2": 6.2114,
+        "duck3": 0.1053,
+        "duck4": 0.096,
+        "duck5": 16.4264
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.990509863948918,
+        "duck1": 0.9890709794590371,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.990352603009052,
+        "duck4": 0.9925029875044316,
+        "duck5": 0.9728131842076292
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.349,
+          1.346
+        ],
+        "duck1": [
+          -1.348,
+          1.351
+        ],
+        "duck2": [
+          -1.348,
+          1.351
+        ],
+        "duck3": [
+          -1.348,
+          1.351
+        ],
+        "duck4": [
+          -1.35,
+          1.351
+        ],
+        "duck5": [
+          -1.346,
+          0.008
+        ]
+      }
+    },
+    {
+      "seed": 3,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck5",
+          "seat": 4,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 35.1,
+          "finished_s": 73.02,
+          "scored_s": 73.02,
+          "duration_s": 70.0
+        },
+        {
+          "round": 2,
+          "picker": "duck5",
+          "goose": "duck1",
+          "seat": 0,
+          "result": "escaped",
+          "winner": "duck5",
+          "opening_tag_s": 86.24,
+          "finished_s": 123.9,
+          "scored_s": 123.9,
+          "duration_s": 49.36
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck5",
+          "seat": 4
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 32.0,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 34.02,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 34.9,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 35.1,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck5",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.17655,
+              -0.56256,
+              0.197
+            ],
+            "distance_from_beak_tip_m": 0.00688
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 35.1,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 37.8,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 39.42,
+          "round": 1,
+          "duck": "duck5",
+          "clearance_m": 0.32096
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 40.12,
+          "round": 1,
+          "duck": "duck5",
+          "upright_cosine": 0.99949,
+          "angular_speed": 1.22447
+        },
+        {
+          "event": "chase",
+          "time_s": 43.76,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 65.66,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 71.2,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.99938,
+          "angular_speed": 0.0136
+        },
+        {
+          "event": "escaped",
+          "time_s": 73.02,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 73.02,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 74.54,
+          "round": 2,
+          "picker": "duck5",
+          "goose": "duck1",
+          "seat": 0
+        },
+        {
+          "event": "selecting",
+          "time_s": 74.54,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 82.9,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 85.18,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 86.02,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 86.24,
+          "round": 2,
+          "actor": "duck5",
+          "target": "duck1",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.59219,
+              -0.01179,
+              0.19635
+            ],
+            "distance_from_beak_tip_m": 0.00642
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 86.24,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 89.02,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 90.56,
+          "round": 2,
+          "duck": "duck1",
+          "clearance_m": 0.32168
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 91.14,
+          "round": 2,
+          "duck": "duck1",
+          "upright_cosine": 0.99696,
+          "angular_speed": 1.36187
+        },
+        {
+          "event": "chase",
+          "time_s": 94.28,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 116.96,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 122.08,
+          "round": 2,
+          "duck": "duck5",
+          "upright_cosine": 0.99904,
+          "angular_speed": 0.00224
+        },
+        {
+          "event": "escaped",
+          "time_s": 123.9,
+          "round": 2,
+          "winner": "duck5"
+        },
+        {
+          "event": "complete",
+          "time_s": 123.9,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 0,
+        "duck2": 0,
+        "duck3": 0,
+        "duck4": 0,
+        "duck5": 1
+      },
+      "elapsed_s": 123.92,
+      "control_steps": 6196,
+      "policy_calls": {
+        "duck0": 6196,
+        "duck1": 6196,
+        "duck2": 6196,
+        "duck3": 6196,
+        "duck4": 6196,
+        "duck5": 6196
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 3561,
+          "sit": 2635
+        },
+        "duck1": {
+          "sit": 4529,
+          "stand": 29,
+          "walk": 1638
+        },
+        "duck2": {
+          "sit": 6196
+        },
+        "duck3": {
+          "sit": 6196
+        },
+        "duck4": {
+          "sit": 6196
+        },
+        "duck5": {
+          "sit": 2063,
+          "stand": 35,
+          "walk": 4098
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.52138,
+          1.57126
+        ],
+        "duck1": [
+          -1.53637,
+          1.73153
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.54257,
+          1.59539
+        ],
+        "duck4": [
+          -1.45811,
+          1.56243
+        ],
+        "duck5": [
+          -1.73136,
+          1.78326
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 12.6853,
+        "duck1": 6.1585,
+        "duck2": 0.1051,
+        "duck3": 0.1039,
+        "duck4": 0.0962,
+        "duck5": 15.2208
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.990509863948918,
+        "duck1": 0.9863826604508119,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.990352603009052,
+        "duck4": 0.9925029875044316,
+        "duck5": 0.9728131842076292
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.348,
+          1.347
+        ],
+        "duck1": [
+          -1.348,
+          1.351
+        ],
+        "duck2": [
+          -1.349,
+          1.351
+        ],
+        "duck3": [
+          -1.348,
+          1.351
+        ],
+        "duck4": [
+          -1.35,
+          1.351
+        ],
+        "duck5": [
+          -1.346,
+          0.009
+        ]
+      }
+    },
+    {
+      "seed": 4,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck4",
+          "seat": 3,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 28.58,
+          "finished_s": 65.88,
+          "scored_s": 65.88,
+          "duration_s": 62.86
+        },
+        {
+          "round": 2,
+          "picker": "duck4",
+          "goose": "duck5",
+          "seat": 4,
+          "result": "escaped",
+          "winner": "duck4",
+          "opening_tag_s": 79.0,
+          "finished_s": 116.6,
+          "scored_s": 116.6,
+          "duration_s": 49.2
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck4",
+          "seat": 3
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 25.58,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 27.5,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 28.36,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 28.58,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck4",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              -0.48046,
+              -0.34422,
+              0.19603
+            ],
+            "distance_from_beak_tip_m": 0.0081
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 28.58,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 31.22,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 32.88,
+          "round": 1,
+          "duck": "duck4",
+          "clearance_m": 0.32047
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 33.36,
+          "round": 1,
+          "duck": "duck4",
+          "upright_cosine": 0.99618,
+          "angular_speed": 1.06928
+        },
+        {
+          "event": "chase",
+          "time_s": 36.34,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 59.06,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 64.06,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.9992,
+          "angular_speed": 0.00802
+        },
+        {
+          "event": "escaped",
+          "time_s": 65.88,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 65.88,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 67.4,
+          "round": 2,
+          "picker": "duck4",
+          "goose": "duck5",
+          "seat": 4
+        },
+        {
+          "event": "selecting",
+          "time_s": 67.4,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 75.62,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 77.9,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 78.8,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 79.0,
+          "round": 2,
+          "actor": "duck4",
+          "target": "duck5",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.1798,
+              -0.56336,
+              0.1955
+            ],
+            "distance_from_beak_tip_m": 0.00708
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 79.0,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 81.66,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 82.98,
+          "round": 2,
+          "duck": "duck5",
+          "clearance_m": 0.32157
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 83.68,
+          "round": 2,
+          "duck": "duck5",
+          "upright_cosine": 0.99942,
+          "angular_speed": 0.92631
+        },
+        {
+          "event": "chase",
+          "time_s": 87.48,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 109.24,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 114.78,
+          "round": 2,
+          "duck": "duck4",
+          "upright_cosine": 0.999,
+          "angular_speed": 0.00701
+        },
+        {
+          "event": "escaped",
+          "time_s": 116.6,
+          "round": 2,
+          "winner": "duck4"
+        },
+        {
+          "event": "complete",
+          "time_s": 116.6,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 0,
+        "duck2": 0,
+        "duck3": 0,
+        "duck4": 1,
+        "duck5": 0
+      },
+      "elapsed_s": 116.62,
+      "control_steps": 5831,
+      "policy_calls": {
+        "duck0": 5831,
+        "duck1": 5831,
+        "duck2": 5831,
+        "duck3": 5831,
+        "duck4": 5831,
+        "duck5": 5831
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 3204,
+          "sit": 2627
+        },
+        "duck1": {
+          "sit": 5831
+        },
+        "duck2": {
+          "sit": 5831
+        },
+        "duck3": {
+          "sit": 5831
+        },
+        "duck4": {
+          "sit": 1736,
+          "stand": 24,
+          "walk": 4071
+        },
+        "duck5": {
+          "sit": 4150,
+          "stand": 35,
+          "walk": 1646
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.5044,
+          1.53814
+        ],
+        "duck1": [
+          -1.53637,
+          1.59039
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.54257,
+          1.59539
+        ],
+        "duck4": [
+          -1.50033,
+          1.56243
+        ],
+        "duck5": [
+          -1.73259,
+          1.78188
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 11.4009,
+        "duck1": 0.1046,
+        "duck2": 0.1032,
+        "duck3": 0.1023,
+        "duck4": 15.1222,
+        "duck5": 6.2063
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.9905048570399386,
+        "duck1": 0.9890709794590371,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.990352603009052,
+        "duck4": 0.9863375400120933,
+        "duck5": 0.9727360725948162
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.347,
+          1.351
+        ],
+        "duck1": [
+          -1.348,
+          1.351
+        ],
+        "duck2": [
+          -1.348,
+          1.351
+        ],
+        "duck3": [
+          -1.35,
+          1.351
+        ],
+        "duck4": [
+          -0.847,
+          0.008
+        ],
+        "duck5": [
+          -1.35,
+          1.348
+        ]
+      }
+    },
+    {
+      "seed": 5,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck4",
+          "seat": 3,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 28.58,
+          "finished_s": 65.88,
+          "scored_s": 65.88,
+          "duration_s": 62.86
+        },
+        {
+          "round": 2,
+          "picker": "duck4",
+          "goose": "duck5",
+          "seat": 4,
+          "result": "escaped",
+          "winner": "duck4",
+          "opening_tag_s": 79.0,
+          "finished_s": 116.6,
+          "scored_s": 116.6,
+          "duration_s": 49.2
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck4",
+          "seat": 3
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 25.58,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 27.5,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 28.36,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 28.58,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck4",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              -0.48046,
+              -0.34422,
+              0.19603
+            ],
+            "distance_from_beak_tip_m": 0.0081
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 28.58,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 31.22,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 32.88,
+          "round": 1,
+          "duck": "duck4",
+          "clearance_m": 0.32047
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 33.36,
+          "round": 1,
+          "duck": "duck4",
+          "upright_cosine": 0.99618,
+          "angular_speed": 1.06928
+        },
+        {
+          "event": "chase",
+          "time_s": 36.34,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 59.06,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 64.06,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.9992,
+          "angular_speed": 0.00802
+        },
+        {
+          "event": "escaped",
+          "time_s": 65.88,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 65.88,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 67.4,
+          "round": 2,
+          "picker": "duck4",
+          "goose": "duck5",
+          "seat": 4
+        },
+        {
+          "event": "selecting",
+          "time_s": 67.4,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 75.62,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 77.9,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 78.8,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 79.0,
+          "round": 2,
+          "actor": "duck4",
+          "target": "duck5",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.1798,
+              -0.56336,
+              0.1955
+            ],
+            "distance_from_beak_tip_m": 0.00708
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 79.0,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 81.66,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 82.98,
+          "round": 2,
+          "duck": "duck5",
+          "clearance_m": 0.32157
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 83.68,
+          "round": 2,
+          "duck": "duck5",
+          "upright_cosine": 0.99942,
+          "angular_speed": 0.92631
+        },
+        {
+          "event": "chase",
+          "time_s": 87.48,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 109.24,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 114.78,
+          "round": 2,
+          "duck": "duck4",
+          "upright_cosine": 0.999,
+          "angular_speed": 0.00701
+        },
+        {
+          "event": "escaped",
+          "time_s": 116.6,
+          "round": 2,
+          "winner": "duck4"
+        },
+        {
+          "event": "complete",
+          "time_s": 116.6,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 0,
+        "duck2": 0,
+        "duck3": 0,
+        "duck4": 1,
+        "duck5": 0
+      },
+      "elapsed_s": 116.62,
+      "control_steps": 5831,
+      "policy_calls": {
+        "duck0": 5831,
+        "duck1": 5831,
+        "duck2": 5831,
+        "duck3": 5831,
+        "duck4": 5831,
+        "duck5": 5831
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 3204,
+          "sit": 2627
+        },
+        "duck1": {
+          "sit": 5831
+        },
+        "duck2": {
+          "sit": 5831
+        },
+        "duck3": {
+          "sit": 5831
+        },
+        "duck4": {
+          "sit": 1736,
+          "stand": 24,
+          "walk": 4071
+        },
+        "duck5": {
+          "sit": 4150,
+          "stand": 35,
+          "walk": 1646
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.5044,
+          1.53814
+        ],
+        "duck1": [
+          -1.53637,
+          1.59039
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.54257,
+          1.59539
+        ],
+        "duck4": [
+          -1.50033,
+          1.56243
+        ],
+        "duck5": [
+          -1.73259,
+          1.78188
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 11.4009,
+        "duck1": 0.1046,
+        "duck2": 0.1032,
+        "duck3": 0.1023,
+        "duck4": 15.1222,
+        "duck5": 6.2063
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.9905048570399386,
+        "duck1": 0.9890709794590371,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.990352603009052,
+        "duck4": 0.9863375400120933,
+        "duck5": 0.9727360725948162
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.347,
+          1.351
+        ],
+        "duck1": [
+          -1.348,
+          1.351
+        ],
+        "duck2": [
+          -1.348,
+          1.351
+        ],
+        "duck3": [
+          -1.35,
+          1.351
+        ],
+        "duck4": [
+          -0.847,
+          0.008
+        ],
+        "duck5": [
+          -1.35,
+          1.348
+        ]
+      }
+    },
+    {
+      "seed": 6,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck3",
+          "seat": 2,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 22.5,
+          "finished_s": 59.82,
+          "scored_s": 59.82,
+          "duration_s": 56.8
+        },
+        {
+          "round": 2,
+          "picker": "duck3",
+          "goose": "duck4",
+          "seat": 3,
+          "result": "escaped",
+          "winner": "duck3",
+          "opening_tag_s": 73.02,
+          "finished_s": 110.94,
+          "scored_s": 110.94,
+          "duration_s": 49.62
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck3",
+          "seat": 2
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 19.18,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 21.44,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 22.28,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 22.5,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck3",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              -0.47671,
+              0.3558,
+              0.19558
+            ],
+            "distance_from_beak_tip_m": 0.006
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 22.5,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 25.16,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 26.8,
+          "round": 1,
+          "duck": "duck3",
+          "clearance_m": 0.32129
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 27.26,
+          "round": 1,
+          "duck": "duck3",
+          "upright_cosine": 0.99851,
+          "angular_speed": 1.01092
+        },
+        {
+          "event": "chase",
+          "time_s": 30.76,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 52.9,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 58.02,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.9994,
+          "angular_speed": 0.00993
+        },
+        {
+          "event": "escaped",
+          "time_s": 59.82,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 59.82,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 61.32,
+          "round": 2,
+          "picker": "duck3",
+          "goose": "duck4",
+          "seat": 3
+        },
+        {
+          "event": "selecting",
+          "time_s": 61.32,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 69.96,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 71.98,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 72.82,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 73.02,
+          "round": 2,
+          "actor": "duck3",
+          "target": "duck4",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              -0.48215,
+              -0.34097,
+              0.19618
+            ],
+            "distance_from_beak_tip_m": 0.0086
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 73.02,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 75.66,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 77.08,
+          "round": 2,
+          "duck": "duck4",
+          "clearance_m": 0.32056
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 77.56,
+          "round": 2,
+          "duck": "duck4",
+          "upright_cosine": 0.99619,
+          "angular_speed": 1.07827
+        },
+        {
+          "event": "chase",
+          "time_s": 80.84,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 103.56,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 109.12,
+          "round": 2,
+          "duck": "duck3",
+          "upright_cosine": 0.99934,
+          "angular_speed": 0.01443
+        },
+        {
+          "event": "escaped",
+          "time_s": 110.94,
+          "round": 2,
+          "winner": "duck3"
+        },
+        {
+          "event": "complete",
+          "time_s": 110.94,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 0,
+        "duck2": 0,
+        "duck3": 1,
+        "duck4": 0,
+        "duck5": 0
+      },
+      "elapsed_s": 110.96,
+      "control_steps": 5548,
+      "policy_calls": {
+        "duck0": 5548,
+        "duck1": 5548,
+        "duck2": 5548,
+        "duck3": 5548,
+        "duck4": 5548,
+        "duck5": 5548
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 2902,
+          "sit": 2646
+        },
+        "duck1": {
+          "sit": 5548
+        },
+        "duck2": {
+          "sit": 5548
+        },
+        "duck3": {
+          "sit": 1432,
+          "stand": 23,
+          "walk": 4093
+        },
+        "duck4": {
+          "sit": 3855,
+          "stand": 24,
+          "walk": 1669
+        },
+        "duck5": {
+          "sit": 5548
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.51875,
+          1.55773
+        ],
+        "duck1": [
+          -1.53637,
+          1.59039
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.54257,
+          1.59539
+        ],
+        "duck4": [
+          -1.46538,
+          1.56243
+        ],
+        "duck5": [
+          -1.46393,
+          1.53579
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 10.2311,
+        "duck1": 0.1051,
+        "duck2": 0.1061,
+        "duck3": 15.161,
+        "duck4": 6.2232,
+        "duck5": 0.0943
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.9902085052817834,
+        "duck1": 0.9890709794590371,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.9880993805244389,
+        "duck4": 0.9861248006260104,
+        "duck5": 0.9921920120479586
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.349,
+          1.35
+        ],
+        "duck1": [
+          -1.348,
+          1.351
+        ],
+        "duck2": [
+          -1.349,
+          1.351
+        ],
+        "duck3": [
+          -0.109,
+          0.17
+        ],
+        "duck4": [
+          -1.345,
+          1.35
+        ],
+        "duck5": [
+          -1.35,
+          1.349
+        ]
+      }
+    },
+    {
+      "seed": 7,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck5",
+          "seat": 4,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 35.1,
+          "finished_s": 73.02,
+          "scored_s": 73.02,
+          "duration_s": 70.0
+        },
+        {
+          "round": 2,
+          "picker": "duck5",
+          "goose": "duck3",
+          "seat": 2,
+          "result": "escaped",
+          "winner": "duck5",
+          "opening_tag_s": 98.84,
+          "finished_s": 136.64,
+          "scored_s": 136.64,
+          "duration_s": 62.1
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck5",
+          "seat": 4
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 32.0,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 34.02,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 34.9,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 35.1,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck5",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.17655,
+              -0.56256,
+              0.197
+            ],
+            "distance_from_beak_tip_m": 0.00688
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 35.1,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 37.8,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 39.42,
+          "round": 1,
+          "duck": "duck5",
+          "clearance_m": 0.32096
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 40.12,
+          "round": 1,
+          "duck": "duck5",
+          "upright_cosine": 0.99949,
+          "angular_speed": 1.22447
+        },
+        {
+          "event": "chase",
+          "time_s": 43.76,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 65.66,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 71.2,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.99938,
+          "angular_speed": 0.0136
+        },
+        {
+          "event": "escaped",
+          "time_s": 73.02,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 73.02,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 74.54,
+          "round": 2,
+          "picker": "duck5",
+          "goose": "duck3",
+          "seat": 2
+        },
+        {
+          "event": "selecting",
+          "time_s": 74.54,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 95.78,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 97.82,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 98.62,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 98.84,
+          "round": 2,
+          "actor": "duck5",
+          "target": "duck3",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              -0.47928,
+              0.35628,
+              0.19328
+            ],
+            "distance_from_beak_tip_m": 0.00612
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 98.84,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 101.74,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 103.52,
+          "round": 2,
+          "duck": "duck3",
+          "clearance_m": 0.32049
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 104.38,
+          "round": 2,
+          "duck": "duck3",
+          "upright_cosine": 0.99334,
+          "angular_speed": 1.46787
+        },
+        {
+          "event": "chase",
+          "time_s": 108.08,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 129.72,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 134.82,
+          "round": 2,
+          "duck": "duck5",
+          "upright_cosine": 0.99938,
+          "angular_speed": 0.03094
+        },
+        {
+          "event": "escaped",
+          "time_s": 136.64,
+          "round": 2,
+          "winner": "duck5"
+        },
+        {
+          "event": "complete",
+          "time_s": 136.64,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 0,
+        "duck2": 0,
+        "duck3": 0,
+        "duck4": 0,
+        "duck5": 1
+      },
+      "elapsed_s": 136.66,
+      "control_steps": 6833,
+      "policy_calls": {
+        "duck0": 6833,
+        "duck1": 6833,
+        "duck2": 6833,
+        "duck3": 6833,
+        "duck4": 6833,
+        "duck5": 6833
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 3561,
+          "sit": 3272
+        },
+        "duck1": {
+          "sit": 6833
+        },
+        "duck2": {
+          "sit": 6833
+        },
+        "duck3": {
+          "sit": 5177,
+          "stand": 43,
+          "walk": 1613
+        },
+        "duck4": {
+          "sit": 6833
+        },
+        "duck5": {
+          "sit": 2063,
+          "stand": 35,
+          "walk": 4735
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.52138,
+          1.57126
+        ],
+        "duck1": [
+          -1.53637,
+          1.59039
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.65802,
+          1.88195
+        ],
+        "duck4": [
+          -1.45811,
+          1.56243
+        ],
+        "duck5": [
+          -1.73136,
+          1.78326
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 12.6878,
+        "duck1": 0.1075,
+        "duck2": 0.1078,
+        "duck3": 6.0883,
+        "duck4": 0.0979,
+        "duck5": 17.6282
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.990509863948918,
+        "duck1": 0.9890709794590371,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.9846981557340598,
+        "duck4": 0.9925029875044316,
+        "duck5": 0.9728131842076292
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.349,
+          1.347
+        ],
+        "duck1": [
+          -1.35,
+          1.351
+        ],
+        "duck2": [
+          -1.348,
+          1.351
+        ],
+        "duck3": [
+          -1.348,
+          1.351
+        ],
+        "duck4": [
+          -1.35,
+          1.351
+        ],
+        "duck5": [
+          -1.346,
+          0.006
+        ]
+      }
+    },
+    {
+      "seed": 8,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck4",
+          "seat": 3,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 28.58,
+          "finished_s": 65.88,
+          "scored_s": 65.88,
+          "duration_s": 62.86
+        },
+        {
+          "round": 2,
+          "picker": "duck4",
+          "goose": "duck2",
+          "seat": 1,
+          "result": "escaped",
+          "winner": "duck4",
+          "opening_tag_s": 91.5,
+          "finished_s": 128.96,
+          "scored_s": 128.96,
+          "duration_s": 61.56
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck4",
+          "seat": 3
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 25.58,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 27.5,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 28.36,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 28.58,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck4",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              -0.48046,
+              -0.34422,
+              0.19603
+            ],
+            "distance_from_beak_tip_m": 0.0081
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 28.58,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 31.22,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 32.88,
+          "round": 1,
+          "duck": "duck4",
+          "clearance_m": 0.32047
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 33.36,
+          "round": 1,
+          "duck": "duck4",
+          "upright_cosine": 0.99618,
+          "angular_speed": 1.06928
+        },
+        {
+          "event": "chase",
+          "time_s": 36.34,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 59.06,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 64.06,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.9992,
+          "angular_speed": 0.00802
+        },
+        {
+          "event": "escaped",
+          "time_s": 65.88,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 65.88,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 67.4,
+          "round": 2,
+          "picker": "duck4",
+          "goose": "duck2",
+          "seat": 1
+        },
+        {
+          "event": "selecting",
+          "time_s": 67.4,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 88.44,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 90.48,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 91.3,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 91.5,
+          "round": 2,
+          "actor": "duck4",
+          "target": "duck2",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.19783,
+              0.55897,
+              0.19565
+            ],
+            "distance_from_beak_tip_m": 0.00991
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 91.5,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 94.36,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 95.82,
+          "round": 2,
+          "duck": "duck2",
+          "clearance_m": 0.32096
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 96.28,
+          "round": 2,
+          "duck": "duck2",
+          "upright_cosine": 0.99613,
+          "angular_speed": 1.26624
+        },
+        {
+          "event": "chase",
+          "time_s": 99.12,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 122.0,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 127.14,
+          "round": 2,
+          "duck": "duck4",
+          "upright_cosine": 0.99938,
+          "angular_speed": 0.02745
+        },
+        {
+          "event": "escaped",
+          "time_s": 128.96,
+          "round": 2,
+          "winner": "duck4"
+        },
+        {
+          "event": "complete",
+          "time_s": 128.96,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 0,
+        "duck2": 0,
+        "duck3": 0,
+        "duck4": 1,
+        "duck5": 0
+      },
+      "elapsed_s": 128.98,
+      "control_steps": 6449,
+      "policy_calls": {
+        "duck0": 6449,
+        "duck1": 6449,
+        "duck2": 6449,
+        "duck3": 6449,
+        "duck4": 6449,
+        "duck5": 6449
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 3204,
+          "sit": 3245
+        },
+        "duck1": {
+          "sit": 6449
+        },
+        "duck2": {
+          "sit": 4792,
+          "stand": 23,
+          "walk": 1634
+        },
+        "duck3": {
+          "sit": 6449
+        },
+        "duck4": {
+          "sit": 1736,
+          "stand": 24,
+          "walk": 4689
+        },
+        "duck5": {
+          "sit": 6449
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.5044,
+          1.53814
+        ],
+        "duck1": [
+          -1.53637,
+          1.59039
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.54257,
+          1.59539
+        ],
+        "duck4": [
+          -1.51511,
+          1.56243
+        ],
+        "duck5": [
+          -1.46393,
+          1.53579
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 11.4004,
+        "duck1": 0.1056,
+        "duck2": 6.1589,
+        "duck3": 0.1042,
+        "duck4": 17.4761,
+        "duck5": 0.099
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.9905048570399386,
+        "duck1": 0.9890709794590371,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.990352603009052,
+        "duck4": 0.9863375400120933,
+        "duck5": 0.9921920120479586
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.347,
+          1.352
+        ],
+        "duck1": [
+          -1.348,
+          1.351
+        ],
+        "duck2": [
+          -1.348,
+          1.351
+        ],
+        "duck3": [
+          -1.35,
+          1.351
+        ],
+        "duck4": [
+          -0.847,
+          0.007
+        ],
+        "duck5": [
+          -1.35,
+          1.351
+        ]
+      }
+    },
+    {
+      "seed": 9,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck3",
+          "seat": 2,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 22.5,
+          "finished_s": 59.82,
+          "scored_s": 59.82,
+          "duration_s": 56.8
+        },
+        {
+          "round": 2,
+          "picker": "duck3",
+          "goose": "duck5",
+          "seat": 4,
+          "result": "escaped",
+          "winner": "duck3",
+          "opening_tag_s": 79.74,
+          "finished_s": 117.54,
+          "scored_s": 117.54,
+          "duration_s": 56.22
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck3",
+          "seat": 2
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 19.18,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 21.44,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 22.28,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 22.5,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck3",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              -0.47671,
+              0.3558,
+              0.19558
+            ],
+            "distance_from_beak_tip_m": 0.006
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 22.5,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 25.16,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 26.8,
+          "round": 1,
+          "duck": "duck3",
+          "clearance_m": 0.32129
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 27.26,
+          "round": 1,
+          "duck": "duck3",
+          "upright_cosine": 0.99851,
+          "angular_speed": 1.01092
+        },
+        {
+          "event": "chase",
+          "time_s": 30.76,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 52.9,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 58.02,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.9994,
+          "angular_speed": 0.00993
+        },
+        {
+          "event": "escaped",
+          "time_s": 59.82,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 59.82,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 61.32,
+          "round": 2,
+          "picker": "duck3",
+          "goose": "duck5",
+          "seat": 4
+        },
+        {
+          "event": "selecting",
+          "time_s": 61.32,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 76.38,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 78.62,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 79.5,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 79.74,
+          "round": 2,
+          "actor": "duck3",
+          "target": "duck5",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.17792,
+              -0.56961,
+              0.18908
+            ],
+            "distance_from_beak_tip_m": 0.01318
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 79.74,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 82.62,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 84.38,
+          "round": 2,
+          "duck": "duck5",
+          "clearance_m": 0.32103
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 85.08,
+          "round": 2,
+          "duck": "duck5",
+          "upright_cosine": 0.99571,
+          "angular_speed": 0.99804
+        },
+        {
+          "event": "chase",
+          "time_s": 88.88,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 110.56,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 115.72,
+          "round": 2,
+          "duck": "duck3",
+          "upright_cosine": 0.99937,
+          "angular_speed": 0.00363
+        },
+        {
+          "event": "escaped",
+          "time_s": 117.54,
+          "round": 2,
+          "winner": "duck3"
+        },
+        {
+          "event": "complete",
+          "time_s": 117.54,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 0,
+        "duck2": 0,
+        "duck3": 1,
+        "duck4": 0,
+        "duck5": 0
+      },
+      "elapsed_s": 117.56,
+      "control_steps": 5878,
+      "policy_calls": {
+        "duck0": 5878,
+        "duck1": 5878,
+        "duck2": 5878,
+        "duck3": 5878,
+        "duck4": 5878,
+        "duck5": 5878
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 2902,
+          "sit": 2976
+        },
+        "duck1": {
+          "sit": 5878
+        },
+        "duck2": {
+          "sit": 5878
+        },
+        "duck3": {
+          "sit": 1432,
+          "stand": 23,
+          "walk": 4423
+        },
+        "duck4": {
+          "sit": 5878
+        },
+        "duck5": {
+          "sit": 4220,
+          "stand": 35,
+          "walk": 1623
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.51875,
+          1.55773
+        ],
+        "duck1": [
+          -1.53637,
+          1.59039
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.54257,
+          1.59539
+        ],
+        "duck4": [
+          -1.45811,
+          1.56243
+        ],
+        "duck5": [
+          -1.80694,
+          2.27412
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 10.2328,
+        "duck1": 0.1061,
+        "duck2": 0.108,
+        "duck3": 16.3681,
+        "duck4": 0.0983,
+        "duck5": 6.0867
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.9902085052817834,
+        "duck1": 0.9890709794590371,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.9880993805244389,
+        "duck4": 0.9925029875044316,
+        "duck5": 0.9808247709459568
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.348,
+          1.35
+        ],
+        "duck1": [
+          -1.348,
+          1.351
+        ],
+        "duck2": [
+          -1.349,
+          1.351
+        ],
+        "duck3": [
+          -0.109,
+          0.17
+        ],
+        "duck4": [
+          -1.348,
+          1.351
+        ],
+        "duck5": [
+          -1.35,
+          1.322
+        ]
+      }
+    },
+    {
+      "seed": 10,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck4",
+          "seat": 3,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 28.58,
+          "finished_s": 65.88,
+          "scored_s": 65.88,
+          "duration_s": 62.86
+        },
+        {
+          "round": 2,
+          "picker": "duck4",
+          "goose": "duck5",
+          "seat": 4,
+          "result": "escaped",
+          "winner": "duck4",
+          "opening_tag_s": 79.0,
+          "finished_s": 116.6,
+          "scored_s": 116.6,
+          "duration_s": 49.2
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck4",
+          "seat": 3
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 25.58,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 27.5,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 28.36,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 28.58,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck4",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              -0.48046,
+              -0.34422,
+              0.19603
+            ],
+            "distance_from_beak_tip_m": 0.0081
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 28.58,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 31.22,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 32.88,
+          "round": 1,
+          "duck": "duck4",
+          "clearance_m": 0.32047
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 33.36,
+          "round": 1,
+          "duck": "duck4",
+          "upright_cosine": 0.99618,
+          "angular_speed": 1.06928
+        },
+        {
+          "event": "chase",
+          "time_s": 36.34,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 59.06,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 64.06,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.9992,
+          "angular_speed": 0.00802
+        },
+        {
+          "event": "escaped",
+          "time_s": 65.88,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 65.88,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 67.4,
+          "round": 2,
+          "picker": "duck4",
+          "goose": "duck5",
+          "seat": 4
+        },
+        {
+          "event": "selecting",
+          "time_s": 67.4,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 75.62,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 77.9,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 78.8,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 79.0,
+          "round": 2,
+          "actor": "duck4",
+          "target": "duck5",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.1798,
+              -0.56336,
+              0.1955
+            ],
+            "distance_from_beak_tip_m": 0.00708
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 79.0,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 81.66,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 82.98,
+          "round": 2,
+          "duck": "duck5",
+          "clearance_m": 0.32157
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 83.68,
+          "round": 2,
+          "duck": "duck5",
+          "upright_cosine": 0.99942,
+          "angular_speed": 0.92631
+        },
+        {
+          "event": "chase",
+          "time_s": 87.48,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 109.24,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 114.78,
+          "round": 2,
+          "duck": "duck4",
+          "upright_cosine": 0.999,
+          "angular_speed": 0.00701
+        },
+        {
+          "event": "escaped",
+          "time_s": 116.6,
+          "round": 2,
+          "winner": "duck4"
+        },
+        {
+          "event": "complete",
+          "time_s": 116.6,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 0,
+        "duck2": 0,
+        "duck3": 0,
+        "duck4": 1,
+        "duck5": 0
+      },
+      "elapsed_s": 116.62,
+      "control_steps": 5831,
+      "policy_calls": {
+        "duck0": 5831,
+        "duck1": 5831,
+        "duck2": 5831,
+        "duck3": 5831,
+        "duck4": 5831,
+        "duck5": 5831
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 3204,
+          "sit": 2627
+        },
+        "duck1": {
+          "sit": 5831
+        },
+        "duck2": {
+          "sit": 5831
+        },
+        "duck3": {
+          "sit": 5831
+        },
+        "duck4": {
+          "sit": 1736,
+          "stand": 24,
+          "walk": 4071
+        },
+        "duck5": {
+          "sit": 4150,
+          "stand": 35,
+          "walk": 1646
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.5044,
+          1.53814
+        ],
+        "duck1": [
+          -1.53637,
+          1.59039
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.54257,
+          1.59539
+        ],
+        "duck4": [
+          -1.50033,
+          1.56243
+        ],
+        "duck5": [
+          -1.73259,
+          1.78188
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 11.4009,
+        "duck1": 0.1046,
+        "duck2": 0.1032,
+        "duck3": 0.1023,
+        "duck4": 15.1222,
+        "duck5": 6.2063
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.9905048570399386,
+        "duck1": 0.9890709794590371,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.990352603009052,
+        "duck4": 0.9863375400120933,
+        "duck5": 0.9727360725948162
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.347,
+          1.351
+        ],
+        "duck1": [
+          -1.348,
+          1.351
+        ],
+        "duck2": [
+          -1.348,
+          1.351
+        ],
+        "duck3": [
+          -1.35,
+          1.351
+        ],
+        "duck4": [
+          -0.847,
+          0.008
+        ],
+        "duck5": [
+          -1.35,
+          1.348
+        ]
+      }
+    },
+    {
+      "seed": 11,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck1",
+          "seat": 0,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 9.5,
+          "finished_s": 46.88,
+          "scored_s": 46.88,
+          "duration_s": 43.86
+        },
+        {
+          "round": 2,
+          "picker": "duck1",
+          "goose": "duck2",
+          "seat": 1,
+          "result": "escaped",
+          "winner": "duck1",
+          "opening_tag_s": 60.4,
+          "finished_s": 97.78,
+          "scored_s": 97.78,
+          "duration_s": 49.4
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck1",
+          "seat": 0
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 6.4,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 8.42,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 9.28,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 9.5,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck1",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.59223,
+              -0.01183,
+              0.19608
+            ],
+            "distance_from_beak_tip_m": 0.00655
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 9.5,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 12.42,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 14.16,
+          "round": 1,
+          "duck": "duck1",
+          "clearance_m": 0.32106
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 14.74,
+          "round": 1,
+          "duck": "duck1",
+          "upright_cosine": 0.99672,
+          "angular_speed": 1.22289
+        },
+        {
+          "event": "chase",
+          "time_s": 17.82,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 40.34,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 45.08,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.99934,
+          "angular_speed": 0.00379
+        },
+        {
+          "event": "escaped",
+          "time_s": 46.88,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 46.88,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 48.38,
+          "round": 2,
+          "picker": "duck1",
+          "goose": "duck2",
+          "seat": 1
+        },
+        {
+          "event": "selecting",
+          "time_s": 48.38,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 57.32,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 59.36,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 60.18,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 60.4,
+          "round": 2,
+          "actor": "duck1",
+          "target": "duck2",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.19504,
+              0.56084,
+              0.1952
+            ],
+            "distance_from_beak_tip_m": 0.0065
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 60.4,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 63.06,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 64.38,
+          "round": 2,
+          "duck": "duck2",
+          "clearance_m": 0.32123
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 64.84,
+          "round": 2,
+          "duck": "duck2",
+          "upright_cosine": 0.99609,
+          "angular_speed": 1.28815
+        },
+        {
+          "event": "chase",
+          "time_s": 68.02,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 90.78,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 95.96,
+          "round": 2,
+          "duck": "duck1",
+          "upright_cosine": 0.99923,
+          "angular_speed": 0.01362
+        },
+        {
+          "event": "escaped",
+          "time_s": 97.78,
+          "round": 2,
+          "winner": "duck1"
+        },
+        {
+          "event": "complete",
+          "time_s": 97.78,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 1,
+        "duck2": 0,
+        "duck3": 0,
+        "duck4": 0,
+        "duck5": 0
+      },
+      "elapsed_s": 97.8,
+      "control_steps": 4890,
+      "policy_calls": {
+        "duck0": 4890,
+        "duck1": 4890,
+        "duck2": 4890,
+        "duck3": 4890,
+        "duck4": 4890,
+        "duck5": 4890
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 2255,
+          "sit": 2635
+        },
+        "duck1": {
+          "sit": 800,
+          "stand": 29,
+          "walk": 4061
+        },
+        "duck2": {
+          "sit": 3220,
+          "stand": 23,
+          "walk": 1647
+        },
+        "duck3": {
+          "sit": 4890
+        },
+        "duck4": {
+          "sit": 4890
+        },
+        "duck5": {
+          "sit": 4890
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.53237,
+          1.57899
+        ],
+        "duck1": [
+          -1.53637,
+          1.66435
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.54257,
+          1.59539
+        ],
+        "duck4": [
+          -1.45811,
+          1.56243
+        ],
+        "duck5": [
+          -1.46393,
+          1.53579
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 7.7856,
+        "duck1": 15.1231,
+        "duck2": 6.1727,
+        "duck3": 0.0999,
+        "duck4": 0.0914,
+        "duck5": 0.0916
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.9904354701647083,
+        "duck1": 0.9885651505299425,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.990352603009052,
+        "duck4": 0.9925029875044316,
+        "duck5": 0.9921920120479586
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.347,
+          1.349
+        ],
+        "duck1": [
+          -0.01,
+          1.348
+        ],
+        "duck2": [
+          -1.281,
+          1.35
+        ],
+        "duck3": [
+          -1.349,
+          1.351
+        ],
+        "duck4": [
+          -1.349,
+          1.349
+        ],
+        "duck5": [
+          -1.35,
+          1.35
+        ]
+      }
+    },
+    {
+      "seed": 12,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck4",
+          "seat": 3,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 28.58,
+          "finished_s": 65.88,
+          "scored_s": 65.88,
+          "duration_s": 62.86
+        },
+        {
+          "round": 2,
+          "picker": "duck4",
+          "goose": "duck2",
+          "seat": 1,
+          "result": "escaped",
+          "winner": "duck4",
+          "opening_tag_s": 91.5,
+          "finished_s": 128.96,
+          "scored_s": 128.96,
+          "duration_s": 61.56
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck4",
+          "seat": 3
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 25.58,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 27.5,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 28.36,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 28.58,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck4",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              -0.48046,
+              -0.34422,
+              0.19603
+            ],
+            "distance_from_beak_tip_m": 0.0081
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 28.58,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 31.22,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 32.88,
+          "round": 1,
+          "duck": "duck4",
+          "clearance_m": 0.32047
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 33.36,
+          "round": 1,
+          "duck": "duck4",
+          "upright_cosine": 0.99618,
+          "angular_speed": 1.06928
+        },
+        {
+          "event": "chase",
+          "time_s": 36.34,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 59.06,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 64.06,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.9992,
+          "angular_speed": 0.00802
+        },
+        {
+          "event": "escaped",
+          "time_s": 65.88,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 65.88,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 67.4,
+          "round": 2,
+          "picker": "duck4",
+          "goose": "duck2",
+          "seat": 1
+        },
+        {
+          "event": "selecting",
+          "time_s": 67.4,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 88.44,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 90.48,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 91.3,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 91.5,
+          "round": 2,
+          "actor": "duck4",
+          "target": "duck2",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.19783,
+              0.55897,
+              0.19565
+            ],
+            "distance_from_beak_tip_m": 0.00991
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 91.5,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 94.36,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 95.82,
+          "round": 2,
+          "duck": "duck2",
+          "clearance_m": 0.32096
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 96.28,
+          "round": 2,
+          "duck": "duck2",
+          "upright_cosine": 0.99613,
+          "angular_speed": 1.26624
+        },
+        {
+          "event": "chase",
+          "time_s": 99.12,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 122.0,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 127.14,
+          "round": 2,
+          "duck": "duck4",
+          "upright_cosine": 0.99938,
+          "angular_speed": 0.02745
+        },
+        {
+          "event": "escaped",
+          "time_s": 128.96,
+          "round": 2,
+          "winner": "duck4"
+        },
+        {
+          "event": "complete",
+          "time_s": 128.96,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 0,
+        "duck2": 0,
+        "duck3": 0,
+        "duck4": 1,
+        "duck5": 0
+      },
+      "elapsed_s": 128.98,
+      "control_steps": 6449,
+      "policy_calls": {
+        "duck0": 6449,
+        "duck1": 6449,
+        "duck2": 6449,
+        "duck3": 6449,
+        "duck4": 6449,
+        "duck5": 6449
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 3204,
+          "sit": 3245
+        },
+        "duck1": {
+          "sit": 6449
+        },
+        "duck2": {
+          "sit": 4792,
+          "stand": 23,
+          "walk": 1634
+        },
+        "duck3": {
+          "sit": 6449
+        },
+        "duck4": {
+          "sit": 1736,
+          "stand": 24,
+          "walk": 4689
+        },
+        "duck5": {
+          "sit": 6449
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.5044,
+          1.53814
+        ],
+        "duck1": [
+          -1.53637,
+          1.59039
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.54257,
+          1.59539
+        ],
+        "duck4": [
+          -1.51511,
+          1.56243
+        ],
+        "duck5": [
+          -1.46393,
+          1.53579
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 11.4004,
+        "duck1": 0.1056,
+        "duck2": 6.1589,
+        "duck3": 0.1042,
+        "duck4": 17.4761,
+        "duck5": 0.099
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.9905048570399386,
+        "duck1": 0.9890709794590371,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.990352603009052,
+        "duck4": 0.9863375400120933,
+        "duck5": 0.9921920120479586
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.347,
+          1.352
+        ],
+        "duck1": [
+          -1.348,
+          1.351
+        ],
+        "duck2": [
+          -1.348,
+          1.351
+        ],
+        "duck3": [
+          -1.35,
+          1.351
+        ],
+        "duck4": [
+          -0.847,
+          0.007
+        ],
+        "duck5": [
+          -1.35,
+          1.351
+        ]
+      }
+    },
+    {
+      "seed": 13,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck5",
+          "seat": 4,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 35.1,
+          "finished_s": 73.02,
+          "scored_s": 73.02,
+          "duration_s": 70.0
+        },
+        {
+          "round": 2,
+          "picker": "duck5",
+          "goose": "duck4",
+          "seat": 3,
+          "result": "escaped",
+          "winner": "duck5",
+          "opening_tag_s": 105.48,
+          "finished_s": 142.92,
+          "scored_s": 142.92,
+          "duration_s": 68.38
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck5",
+          "seat": 4
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 32.0,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 34.02,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 34.9,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 35.1,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck5",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.17655,
+              -0.56256,
+              0.197
+            ],
+            "distance_from_beak_tip_m": 0.00688
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 35.1,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 37.8,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 39.42,
+          "round": 1,
+          "duck": "duck5",
+          "clearance_m": 0.32096
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 40.12,
+          "round": 1,
+          "duck": "duck5",
+          "upright_cosine": 0.99949,
+          "angular_speed": 1.22447
+        },
+        {
+          "event": "chase",
+          "time_s": 43.76,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 65.66,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 71.2,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.99938,
+          "angular_speed": 0.0136
+        },
+        {
+          "event": "escaped",
+          "time_s": 73.02,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 73.02,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 74.54,
+          "round": 2,
+          "picker": "duck5",
+          "goose": "duck4",
+          "seat": 3
+        },
+        {
+          "event": "selecting",
+          "time_s": 74.54,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 102.18,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 104.4,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 105.26,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 105.48,
+          "round": 2,
+          "actor": "duck5",
+          "target": "duck4",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              -0.4799,
+              -0.34829,
+              0.19416
+            ],
+            "distance_from_beak_tip_m": 0.00846
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 105.48,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 108.1,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 109.78,
+          "round": 2,
+          "duck": "duck4",
+          "clearance_m": 0.3232
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 110.26,
+          "round": 2,
+          "duck": "duck4",
+          "upright_cosine": 0.99619,
+          "angular_speed": 1.08455
+        },
+        {
+          "event": "chase",
+          "time_s": 113.66,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 135.82,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 141.1,
+          "round": 2,
+          "duck": "duck5",
+          "upright_cosine": 0.9994,
+          "angular_speed": 0.01799
+        },
+        {
+          "event": "escaped",
+          "time_s": 142.92,
+          "round": 2,
+          "winner": "duck5"
+        },
+        {
+          "event": "complete",
+          "time_s": 142.92,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 0,
+        "duck2": 0,
+        "duck3": 0,
+        "duck4": 0,
+        "duck5": 1
+      },
+      "elapsed_s": 142.94,
+      "control_steps": 7147,
+      "policy_calls": {
+        "duck0": 7147,
+        "duck1": 7147,
+        "duck2": 7147,
+        "duck3": 7147,
+        "duck4": 7147,
+        "duck5": 7147
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 3561,
+          "sit": 3586
+        },
+        "duck1": {
+          "sit": 7147
+        },
+        "duck2": {
+          "sit": 7147
+        },
+        "duck3": {
+          "sit": 7147
+        },
+        "duck4": {
+          "sit": 5490,
+          "stand": 24,
+          "walk": 1633
+        },
+        "duck5": {
+          "sit": 2063,
+          "stand": 35,
+          "walk": 5049
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.52138,
+          1.57126
+        ],
+        "duck1": [
+          -1.53637,
+          1.59039
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.54257,
+          1.59539
+        ],
+        "duck4": [
+          -1.46546,
+          1.56243
+        ],
+        "duck5": [
+          -1.73136,
+          1.78326
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 12.6886,
+        "duck1": 0.1085,
+        "duck2": 0.1086,
+        "duck3": 0.1101,
+        "duck4": 6.1114,
+        "duck5": 18.8305
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.990509863948918,
+        "duck1": 0.9890709794590371,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.990352603009052,
+        "duck4": 0.9860183501513502,
+        "duck5": 0.9728131842076292
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.349,
+          1.348
+        ],
+        "duck1": [
+          -1.35,
+          1.351
+        ],
+        "duck2": [
+          -1.348,
+          1.351
+        ],
+        "duck3": [
+          -1.348,
+          1.351
+        ],
+        "duck4": [
+          -1.348,
+          1.351
+        ],
+        "duck5": [
+          -1.346,
+          0.005
+        ]
+      }
+    },
+    {
+      "seed": 14,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck1",
+          "seat": 0,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 9.5,
+          "finished_s": 46.88,
+          "scored_s": 46.88,
+          "duration_s": 43.86
+        },
+        {
+          "round": 2,
+          "picker": "duck1",
+          "goose": "duck5",
+          "seat": 4,
+          "result": "escaped",
+          "winner": "duck1",
+          "opening_tag_s": 79.58,
+          "finished_s": 117.46,
+          "scored_s": 117.46,
+          "duration_s": 69.08
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck1",
+          "seat": 0
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 6.4,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 8.42,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 9.28,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 9.5,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck1",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.59223,
+              -0.01183,
+              0.19608
+            ],
+            "distance_from_beak_tip_m": 0.00655
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 9.5,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 12.42,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 14.16,
+          "round": 1,
+          "duck": "duck1",
+          "clearance_m": 0.32106
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 14.74,
+          "round": 1,
+          "duck": "duck1",
+          "upright_cosine": 0.99672,
+          "angular_speed": 1.22289
+        },
+        {
+          "event": "chase",
+          "time_s": 17.82,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 40.34,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 45.08,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.99934,
+          "angular_speed": 0.00379
+        },
+        {
+          "event": "escaped",
+          "time_s": 46.88,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 46.88,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 48.38,
+          "round": 2,
+          "picker": "duck1",
+          "goose": "duck5",
+          "seat": 4
+        },
+        {
+          "event": "selecting",
+          "time_s": 48.38,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 76.5,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 78.5,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 79.36,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 79.58,
+          "round": 2,
+          "actor": "duck1",
+          "target": "duck5",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.1762,
+              -0.56379,
+              0.19603
+            ],
+            "distance_from_beak_tip_m": 0.0072
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 79.58,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 82.4,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 84.2,
+          "round": 2,
+          "duck": "duck5",
+          "clearance_m": 0.32254
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 84.9,
+          "round": 2,
+          "duck": "duck5",
+          "upright_cosine": 0.99946,
+          "angular_speed": 1.0067
+        },
+        {
+          "event": "chase",
+          "time_s": 88.48,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 110.34,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 115.64,
+          "round": 2,
+          "duck": "duck1",
+          "upright_cosine": 0.9994,
+          "angular_speed": 0.01306
+        },
+        {
+          "event": "escaped",
+          "time_s": 117.46,
+          "round": 2,
+          "winner": "duck1"
+        },
+        {
+          "event": "complete",
+          "time_s": 117.46,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 1,
+        "duck2": 0,
+        "duck3": 0,
+        "duck4": 0,
+        "duck5": 0
+      },
+      "elapsed_s": 117.48,
+      "control_steps": 5874,
+      "policy_calls": {
+        "duck0": 5874,
+        "duck1": 5874,
+        "duck2": 5874,
+        "duck3": 5874,
+        "duck4": 5874,
+        "duck5": 5874
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 2255,
+          "sit": 3619
+        },
+        "duck1": {
+          "sit": 800,
+          "stand": 29,
+          "walk": 5045
+        },
+        "duck2": {
+          "sit": 5874
+        },
+        "duck3": {
+          "sit": 5874
+        },
+        "duck4": {
+          "sit": 5874
+        },
+        "duck5": {
+          "sit": 4211,
+          "stand": 35,
+          "walk": 1628
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.53237,
+          1.57899
+        ],
+        "duck1": [
+          -1.53637,
+          1.66435
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.54257,
+          1.59539
+        ],
+        "duck4": [
+          -1.45811,
+          1.56243
+        ],
+        "duck5": [
+          -1.73374,
+          1.7821
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 7.7886,
+        "duck1": 18.8055,
+        "duck2": 0.1027,
+        "duck3": 0.1037,
+        "duck4": 0.0973,
+        "duck5": 6.1511
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.9904354701647083,
+        "duck1": 0.9885651505299425,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.990352603009052,
+        "duck4": 0.9925029875044316,
+        "duck5": 0.9727784790303359
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.349,
+          1.345
+        ],
+        "duck1": [
+          -0.01,
+          1.348
+        ],
+        "duck2": [
+          -1.349,
+          1.351
+        ],
+        "duck3": [
+          -1.349,
+          1.351
+        ],
+        "duck4": [
+          -1.348,
+          1.351
+        ],
+        "duck5": [
+          -1.349,
+          1.347
+        ]
+      }
+    },
+    {
+      "seed": 15,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck5",
+          "seat": 4,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 35.1,
+          "finished_s": 73.02,
+          "scored_s": 73.02,
+          "duration_s": 70.0
+        },
+        {
+          "round": 2,
+          "picker": "duck5",
+          "goose": "duck3",
+          "seat": 2,
+          "result": "escaped",
+          "winner": "duck5",
+          "opening_tag_s": 98.84,
+          "finished_s": 136.64,
+          "scored_s": 136.64,
+          "duration_s": 62.1
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck5",
+          "seat": 4
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 32.0,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 34.02,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 34.9,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 35.1,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck5",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.17655,
+              -0.56256,
+              0.197
+            ],
+            "distance_from_beak_tip_m": 0.00688
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 35.1,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 37.8,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 39.42,
+          "round": 1,
+          "duck": "duck5",
+          "clearance_m": 0.32096
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 40.12,
+          "round": 1,
+          "duck": "duck5",
+          "upright_cosine": 0.99949,
+          "angular_speed": 1.22447
+        },
+        {
+          "event": "chase",
+          "time_s": 43.76,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 65.66,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 71.2,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.99938,
+          "angular_speed": 0.0136
+        },
+        {
+          "event": "escaped",
+          "time_s": 73.02,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 73.02,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 74.54,
+          "round": 2,
+          "picker": "duck5",
+          "goose": "duck3",
+          "seat": 2
+        },
+        {
+          "event": "selecting",
+          "time_s": 74.54,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 95.78,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 97.82,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 98.62,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 98.84,
+          "round": 2,
+          "actor": "duck5",
+          "target": "duck3",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              -0.47928,
+              0.35628,
+              0.19328
+            ],
+            "distance_from_beak_tip_m": 0.00612
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 98.84,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 101.74,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 103.52,
+          "round": 2,
+          "duck": "duck3",
+          "clearance_m": 0.32049
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 104.38,
+          "round": 2,
+          "duck": "duck3",
+          "upright_cosine": 0.99334,
+          "angular_speed": 1.46787
+        },
+        {
+          "event": "chase",
+          "time_s": 108.08,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 129.72,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 134.82,
+          "round": 2,
+          "duck": "duck5",
+          "upright_cosine": 0.99938,
+          "angular_speed": 0.03094
+        },
+        {
+          "event": "escaped",
+          "time_s": 136.64,
+          "round": 2,
+          "winner": "duck5"
+        },
+        {
+          "event": "complete",
+          "time_s": 136.64,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 0,
+        "duck2": 0,
+        "duck3": 0,
+        "duck4": 0,
+        "duck5": 1
+      },
+      "elapsed_s": 136.66,
+      "control_steps": 6833,
+      "policy_calls": {
+        "duck0": 6833,
+        "duck1": 6833,
+        "duck2": 6833,
+        "duck3": 6833,
+        "duck4": 6833,
+        "duck5": 6833
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 3561,
+          "sit": 3272
+        },
+        "duck1": {
+          "sit": 6833
+        },
+        "duck2": {
+          "sit": 6833
+        },
+        "duck3": {
+          "sit": 5177,
+          "stand": 43,
+          "walk": 1613
+        },
+        "duck4": {
+          "sit": 6833
+        },
+        "duck5": {
+          "sit": 2063,
+          "stand": 35,
+          "walk": 4735
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.52138,
+          1.57126
+        ],
+        "duck1": [
+          -1.53637,
+          1.59039
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.65802,
+          1.88195
+        ],
+        "duck4": [
+          -1.45811,
+          1.56243
+        ],
+        "duck5": [
+          -1.73136,
+          1.78326
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 12.6878,
+        "duck1": 0.1075,
+        "duck2": 0.1078,
+        "duck3": 6.0883,
+        "duck4": 0.0979,
+        "duck5": 17.6282
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.990509863948918,
+        "duck1": 0.9890709794590371,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.9846981557340598,
+        "duck4": 0.9925029875044316,
+        "duck5": 0.9728131842076292
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.349,
+          1.347
+        ],
+        "duck1": [
+          -1.35,
+          1.351
+        ],
+        "duck2": [
+          -1.348,
+          1.351
+        ],
+        "duck3": [
+          -1.348,
+          1.351
+        ],
+        "duck4": [
+          -1.35,
+          1.351
+        ],
+        "duck5": [
+          -1.346,
+          0.006
+        ]
+      }
+    },
+    {
+      "seed": 16,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck3",
+          "seat": 2,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 22.5,
+          "finished_s": 59.82,
+          "scored_s": 59.82,
+          "duration_s": 56.8
+        },
+        {
+          "round": 2,
+          "picker": "duck3",
+          "goose": "duck4",
+          "seat": 3,
+          "result": "escaped",
+          "winner": "duck3",
+          "opening_tag_s": 73.02,
+          "finished_s": 110.94,
+          "scored_s": 110.94,
+          "duration_s": 49.62
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck3",
+          "seat": 2
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 19.18,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 21.44,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 22.28,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 22.5,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck3",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              -0.47671,
+              0.3558,
+              0.19558
+            ],
+            "distance_from_beak_tip_m": 0.006
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 22.5,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 25.16,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 26.8,
+          "round": 1,
+          "duck": "duck3",
+          "clearance_m": 0.32129
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 27.26,
+          "round": 1,
+          "duck": "duck3",
+          "upright_cosine": 0.99851,
+          "angular_speed": 1.01092
+        },
+        {
+          "event": "chase",
+          "time_s": 30.76,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 52.9,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 58.02,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.9994,
+          "angular_speed": 0.00993
+        },
+        {
+          "event": "escaped",
+          "time_s": 59.82,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 59.82,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 61.32,
+          "round": 2,
+          "picker": "duck3",
+          "goose": "duck4",
+          "seat": 3
+        },
+        {
+          "event": "selecting",
+          "time_s": 61.32,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 69.96,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 71.98,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 72.82,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 73.02,
+          "round": 2,
+          "actor": "duck3",
+          "target": "duck4",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              -0.48215,
+              -0.34097,
+              0.19618
+            ],
+            "distance_from_beak_tip_m": 0.0086
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 73.02,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 75.66,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 77.08,
+          "round": 2,
+          "duck": "duck4",
+          "clearance_m": 0.32056
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 77.56,
+          "round": 2,
+          "duck": "duck4",
+          "upright_cosine": 0.99619,
+          "angular_speed": 1.07827
+        },
+        {
+          "event": "chase",
+          "time_s": 80.84,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 103.56,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 109.12,
+          "round": 2,
+          "duck": "duck3",
+          "upright_cosine": 0.99934,
+          "angular_speed": 0.01443
+        },
+        {
+          "event": "escaped",
+          "time_s": 110.94,
+          "round": 2,
+          "winner": "duck3"
+        },
+        {
+          "event": "complete",
+          "time_s": 110.94,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 0,
+        "duck2": 0,
+        "duck3": 1,
+        "duck4": 0,
+        "duck5": 0
+      },
+      "elapsed_s": 110.96,
+      "control_steps": 5548,
+      "policy_calls": {
+        "duck0": 5548,
+        "duck1": 5548,
+        "duck2": 5548,
+        "duck3": 5548,
+        "duck4": 5548,
+        "duck5": 5548
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 2902,
+          "sit": 2646
+        },
+        "duck1": {
+          "sit": 5548
+        },
+        "duck2": {
+          "sit": 5548
+        },
+        "duck3": {
+          "sit": 1432,
+          "stand": 23,
+          "walk": 4093
+        },
+        "duck4": {
+          "sit": 3855,
+          "stand": 24,
+          "walk": 1669
+        },
+        "duck5": {
+          "sit": 5548
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.51875,
+          1.55773
+        ],
+        "duck1": [
+          -1.53637,
+          1.59039
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.54257,
+          1.59539
+        ],
+        "duck4": [
+          -1.46538,
+          1.56243
+        ],
+        "duck5": [
+          -1.46393,
+          1.53579
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 10.2311,
+        "duck1": 0.1051,
+        "duck2": 0.1061,
+        "duck3": 15.161,
+        "duck4": 6.2232,
+        "duck5": 0.0943
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.9902085052817834,
+        "duck1": 0.9890709794590371,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.9880993805244389,
+        "duck4": 0.9861248006260104,
+        "duck5": 0.9921920120479586
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.349,
+          1.35
+        ],
+        "duck1": [
+          -1.348,
+          1.351
+        ],
+        "duck2": [
+          -1.349,
+          1.351
+        ],
+        "duck3": [
+          -0.109,
+          0.17
+        ],
+        "duck4": [
+          -1.345,
+          1.35
+        ],
+        "duck5": [
+          -1.35,
+          1.349
+        ]
+      }
+    },
+    {
+      "seed": 17,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck4",
+          "seat": 3,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 28.58,
+          "finished_s": 65.88,
+          "scored_s": 65.88,
+          "duration_s": 62.86
+        },
+        {
+          "round": 2,
+          "picker": "duck4",
+          "goose": "duck5",
+          "seat": 4,
+          "result": "escaped",
+          "winner": "duck4",
+          "opening_tag_s": 79.0,
+          "finished_s": 116.6,
+          "scored_s": 116.6,
+          "duration_s": 49.2
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck4",
+          "seat": 3
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 25.58,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 27.5,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 28.36,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 28.58,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck4",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              -0.48046,
+              -0.34422,
+              0.19603
+            ],
+            "distance_from_beak_tip_m": 0.0081
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 28.58,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 31.22,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 32.88,
+          "round": 1,
+          "duck": "duck4",
+          "clearance_m": 0.32047
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 33.36,
+          "round": 1,
+          "duck": "duck4",
+          "upright_cosine": 0.99618,
+          "angular_speed": 1.06928
+        },
+        {
+          "event": "chase",
+          "time_s": 36.34,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 59.06,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 64.06,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.9992,
+          "angular_speed": 0.00802
+        },
+        {
+          "event": "escaped",
+          "time_s": 65.88,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 65.88,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 67.4,
+          "round": 2,
+          "picker": "duck4",
+          "goose": "duck5",
+          "seat": 4
+        },
+        {
+          "event": "selecting",
+          "time_s": 67.4,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 75.62,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 77.9,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 78.8,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 79.0,
+          "round": 2,
+          "actor": "duck4",
+          "target": "duck5",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.1798,
+              -0.56336,
+              0.1955
+            ],
+            "distance_from_beak_tip_m": 0.00708
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 79.0,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 81.66,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 82.98,
+          "round": 2,
+          "duck": "duck5",
+          "clearance_m": 0.32157
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 83.68,
+          "round": 2,
+          "duck": "duck5",
+          "upright_cosine": 0.99942,
+          "angular_speed": 0.92631
+        },
+        {
+          "event": "chase",
+          "time_s": 87.48,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 109.24,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 114.78,
+          "round": 2,
+          "duck": "duck4",
+          "upright_cosine": 0.999,
+          "angular_speed": 0.00701
+        },
+        {
+          "event": "escaped",
+          "time_s": 116.6,
+          "round": 2,
+          "winner": "duck4"
+        },
+        {
+          "event": "complete",
+          "time_s": 116.6,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 0,
+        "duck2": 0,
+        "duck3": 0,
+        "duck4": 1,
+        "duck5": 0
+      },
+      "elapsed_s": 116.62,
+      "control_steps": 5831,
+      "policy_calls": {
+        "duck0": 5831,
+        "duck1": 5831,
+        "duck2": 5831,
+        "duck3": 5831,
+        "duck4": 5831,
+        "duck5": 5831
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 3204,
+          "sit": 2627
+        },
+        "duck1": {
+          "sit": 5831
+        },
+        "duck2": {
+          "sit": 5831
+        },
+        "duck3": {
+          "sit": 5831
+        },
+        "duck4": {
+          "sit": 1736,
+          "stand": 24,
+          "walk": 4071
+        },
+        "duck5": {
+          "sit": 4150,
+          "stand": 35,
+          "walk": 1646
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.5044,
+          1.53814
+        ],
+        "duck1": [
+          -1.53637,
+          1.59039
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.54257,
+          1.59539
+        ],
+        "duck4": [
+          -1.50033,
+          1.56243
+        ],
+        "duck5": [
+          -1.73259,
+          1.78188
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 11.4009,
+        "duck1": 0.1046,
+        "duck2": 0.1032,
+        "duck3": 0.1023,
+        "duck4": 15.1222,
+        "duck5": 6.2063
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.9905048570399386,
+        "duck1": 0.9890709794590371,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.990352603009052,
+        "duck4": 0.9863375400120933,
+        "duck5": 0.9727360725948162
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.347,
+          1.351
+        ],
+        "duck1": [
+          -1.348,
+          1.351
+        ],
+        "duck2": [
+          -1.348,
+          1.351
+        ],
+        "duck3": [
+          -1.35,
+          1.351
+        ],
+        "duck4": [
+          -0.847,
+          0.008
+        ],
+        "duck5": [
+          -1.35,
+          1.348
+        ]
+      }
+    },
+    {
+      "seed": 18,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck5",
+          "seat": 4,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 35.1,
+          "finished_s": 73.02,
+          "scored_s": 73.02,
+          "duration_s": 70.0
+        },
+        {
+          "round": 2,
+          "picker": "duck5",
+          "goose": "duck2",
+          "seat": 1,
+          "result": "escaped",
+          "winner": "duck5",
+          "opening_tag_s": 92.36,
+          "finished_s": 130.22,
+          "scored_s": 130.22,
+          "duration_s": 55.68
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck5",
+          "seat": 4
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 32.0,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 34.02,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 34.9,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 35.1,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck5",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.17655,
+              -0.56256,
+              0.197
+            ],
+            "distance_from_beak_tip_m": 0.00688
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 35.1,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 37.8,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 39.42,
+          "round": 1,
+          "duck": "duck5",
+          "clearance_m": 0.32096
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 40.12,
+          "round": 1,
+          "duck": "duck5",
+          "upright_cosine": 0.99949,
+          "angular_speed": 1.22447
+        },
+        {
+          "event": "chase",
+          "time_s": 43.76,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 65.66,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 71.2,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.99938,
+          "angular_speed": 0.0136
+        },
+        {
+          "event": "escaped",
+          "time_s": 73.02,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 73.02,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 74.54,
+          "round": 2,
+          "picker": "duck5",
+          "goose": "duck2",
+          "seat": 1
+        },
+        {
+          "event": "selecting",
+          "time_s": 74.54,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 89.34,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 91.32,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 92.16,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 92.36,
+          "round": 2,
+          "actor": "duck5",
+          "target": "duck2",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.19265,
+              0.55888,
+              0.19765
+            ],
+            "distance_from_beak_tip_m": 0.00716
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 92.36,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 95.28,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 96.72,
+          "round": 2,
+          "duck": "duck2",
+          "clearance_m": 0.32208
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 97.18,
+          "round": 2,
+          "duck": "duck2",
+          "upright_cosine": 0.99609,
+          "angular_speed": 1.28277
+        },
+        {
+          "event": "chase",
+          "time_s": 100.32,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 122.96,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 128.4,
+          "round": 2,
+          "duck": "duck5",
+          "upright_cosine": 0.99937,
+          "angular_speed": 0.02346
+        },
+        {
+          "event": "escaped",
+          "time_s": 130.22,
+          "round": 2,
+          "winner": "duck5"
+        },
+        {
+          "event": "complete",
+          "time_s": 130.22,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 0,
+        "duck2": 0,
+        "duck3": 0,
+        "duck4": 0,
+        "duck5": 1
+      },
+      "elapsed_s": 130.24,
+      "control_steps": 6512,
+      "policy_calls": {
+        "duck0": 6512,
+        "duck1": 6512,
+        "duck2": 6512,
+        "duck3": 6512,
+        "duck4": 6512,
+        "duck5": 6512
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 3561,
+          "sit": 2951
+        },
+        "duck1": {
+          "sit": 6512
+        },
+        "duck2": {
+          "sit": 4837,
+          "stand": 23,
+          "walk": 1652
+        },
+        "duck3": {
+          "sit": 6512
+        },
+        "duck4": {
+          "sit": 6512
+        },
+        "duck5": {
+          "sit": 2063,
+          "stand": 35,
+          "walk": 4414
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.52138,
+          1.57126
+        ],
+        "duck1": [
+          -1.53637,
+          1.59039
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.54257,
+          1.59539
+        ],
+        "duck4": [
+          -1.45811,
+          1.56243
+        ],
+        "duck5": [
+          -1.73136,
+          1.78326
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 12.6865,
+        "duck1": 0.1065,
+        "duck2": 6.2114,
+        "duck3": 0.1053,
+        "duck4": 0.096,
+        "duck5": 16.4264
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.990509863948918,
+        "duck1": 0.9890709794590371,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.990352603009052,
+        "duck4": 0.9925029875044316,
+        "duck5": 0.9728131842076292
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.349,
+          1.346
+        ],
+        "duck1": [
+          -1.348,
+          1.351
+        ],
+        "duck2": [
+          -1.348,
+          1.351
+        ],
+        "duck3": [
+          -1.348,
+          1.351
+        ],
+        "duck4": [
+          -1.35,
+          1.351
+        ],
+        "duck5": [
+          -1.346,
+          0.008
+        ]
+      }
+    },
+    {
+      "seed": 19,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck3",
+          "seat": 2,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 22.5,
+          "finished_s": 59.82,
+          "scored_s": 59.82,
+          "duration_s": 56.8
+        },
+        {
+          "round": 2,
+          "picker": "duck3",
+          "goose": "duck2",
+          "seat": 1,
+          "result": "escaped",
+          "winner": "duck3",
+          "opening_tag_s": 92.18,
+          "finished_s": 129.3,
+          "scored_s": 129.3,
+          "duration_s": 67.98
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck3",
+          "seat": 2
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 19.18,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 21.44,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 22.28,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 22.5,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck3",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              -0.47671,
+              0.3558,
+              0.19558
+            ],
+            "distance_from_beak_tip_m": 0.006
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 22.5,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 25.16,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 26.8,
+          "round": 1,
+          "duck": "duck3",
+          "clearance_m": 0.32129
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 27.26,
+          "round": 1,
+          "duck": "duck3",
+          "upright_cosine": 0.99851,
+          "angular_speed": 1.01092
+        },
+        {
+          "event": "chase",
+          "time_s": 30.76,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 52.9,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 58.02,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.9994,
+          "angular_speed": 0.00993
+        },
+        {
+          "event": "escaped",
+          "time_s": 59.82,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 59.82,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 61.32,
+          "round": 2,
+          "picker": "duck3",
+          "goose": "duck2",
+          "seat": 1
+        },
+        {
+          "event": "selecting",
+          "time_s": 61.32,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 89.16,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 91.14,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 91.98,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 92.18,
+          "round": 2,
+          "actor": "duck3",
+          "target": "duck2",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.19387,
+              0.55975,
+              0.19655
+            ],
+            "distance_from_beak_tip_m": 0.00718
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 92.18,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 94.84,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 96.16,
+          "round": 2,
+          "duck": "duck2",
+          "clearance_m": 0.32194
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 96.62,
+          "round": 2,
+          "duck": "duck2",
+          "upright_cosine": 0.9961,
+          "angular_speed": 1.28117
+        },
+        {
+          "event": "chase",
+          "time_s": 99.8,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 122.56,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 127.48,
+          "round": 2,
+          "duck": "duck3",
+          "upright_cosine": 0.99907,
+          "angular_speed": 0.00936
+        },
+        {
+          "event": "escaped",
+          "time_s": 129.3,
+          "round": 2,
+          "winner": "duck3"
+        },
+        {
+          "event": "complete",
+          "time_s": 129.3,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 0,
+        "duck2": 0,
+        "duck3": 1,
+        "duck4": 0,
+        "duck5": 0
+      },
+      "elapsed_s": 129.32,
+      "control_steps": 6466,
+      "policy_calls": {
+        "duck0": 6466,
+        "duck1": 6466,
+        "duck2": 6466,
+        "duck3": 6466,
+        "duck4": 6466,
+        "duck5": 6466
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 2902,
+          "sit": 3564
+        },
+        "duck1": {
+          "sit": 6466
+        },
+        "duck2": {
+          "sit": 4809,
+          "stand": 23,
+          "walk": 1634
+        },
+        "duck3": {
+          "sit": 1432,
+          "stand": 23,
+          "walk": 5011
+        },
+        "duck4": {
+          "sit": 6466
+        },
+        "duck5": {
+          "sit": 6466
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.51875,
+          1.55773
+        ],
+        "duck1": [
+          -1.53637,
+          1.59039
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.54257,
+          1.59539
+        ],
+        "duck4": [
+          -1.45811,
+          1.56243
+        ],
+        "duck5": [
+          -1.46393,
+          1.53579
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 10.234,
+        "duck1": 0.1066,
+        "duck2": 6.1372,
+        "duck3": 18.6859,
+        "duck4": 0.0978,
+        "duck5": 0.1007
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.9902085052817834,
+        "duck1": 0.9890709794590371,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.9880993805244389,
+        "duck4": 0.9925029875044316,
+        "duck5": 0.9921920120479586
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.349,
+          1.35
+        ],
+        "duck1": [
+          -1.348,
+          1.351
+        ],
+        "duck2": [
+          -1.348,
+          1.351
+        ],
+        "duck3": [
+          -0.109,
+          0.17
+        ],
+        "duck4": [
+          -1.348,
+          1.351
+        ],
+        "duck5": [
+          -1.35,
+          1.351
+        ]
+      }
+    },
+    {
+      "seed": 20,
+      "result": "complete",
+      "rounds": [
+        {
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck5",
+          "seat": 4,
+          "result": "escaped",
+          "winner": "duck0",
+          "opening_tag_s": 35.1,
+          "finished_s": 73.02,
+          "scored_s": 73.02,
+          "duration_s": 70.0
+        },
+        {
+          "round": 2,
+          "picker": "duck5",
+          "goose": "duck2",
+          "seat": 1,
+          "result": "escaped",
+          "winner": "duck5",
+          "opening_tag_s": 92.36,
+          "finished_s": 130.22,
+          "scored_s": 130.22,
+          "duration_s": 55.68
+        }
+      ],
+      "events": [
+        {
+          "event": "goose_selected",
+          "time_s": 3.02,
+          "round": 1,
+          "picker": "duck0",
+          "goose": "duck5",
+          "seat": 4
+        },
+        {
+          "event": "selecting",
+          "time_s": 3.02,
+          "round": 1
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 32.0,
+          "round": 1
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 34.02,
+          "round": 1
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 34.9,
+          "round": 1
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 35.1,
+          "round": 1,
+          "actor": "duck0",
+          "target": "duck5",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.17655,
+              -0.56256,
+              0.197
+            ],
+            "distance_from_beak_tip_m": 0.00688
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 35.1,
+          "round": 1
+        },
+        {
+          "event": "chase_started",
+          "time_s": 37.8,
+          "round": 1
+        },
+        {
+          "event": "stand_started",
+          "time_s": 39.42,
+          "round": 1,
+          "duck": "duck5",
+          "clearance_m": 0.32096
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 40.12,
+          "round": 1,
+          "duck": "duck5",
+          "upright_cosine": 0.99949,
+          "angular_speed": 1.22447
+        },
+        {
+          "event": "chase",
+          "time_s": 43.76,
+          "round": 1
+        },
+        {
+          "event": "returning",
+          "time_s": 65.66,
+          "round": 1
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 71.2,
+          "round": 1,
+          "duck": "duck0",
+          "upright_cosine": 0.99938,
+          "angular_speed": 0.0136
+        },
+        {
+          "event": "escaped",
+          "time_s": 73.02,
+          "round": 1,
+          "winner": "duck0"
+        },
+        {
+          "event": "intermission",
+          "time_s": 73.02,
+          "round": 1
+        },
+        {
+          "event": "goose_selected",
+          "time_s": 74.54,
+          "round": 2,
+          "picker": "duck5",
+          "goose": "duck2",
+          "seat": 1
+        },
+        {
+          "event": "selecting",
+          "time_s": 74.54,
+          "round": 2
+        },
+        {
+          "event": "turn_to_goose",
+          "time_s": 89.34,
+          "round": 2
+        },
+        {
+          "event": "approach_goose",
+          "time_s": 91.32,
+          "round": 2
+        },
+        {
+          "event": "beak_tap",
+          "time_s": 92.16,
+          "round": 2
+        },
+        {
+          "event": "physical_beak_tap",
+          "time_s": 92.36,
+          "round": 2,
+          "actor": "duck5",
+          "target": "duck2",
+          "contact": {
+            "actor_mesh": "jaw",
+            "target_mesh": "top_head_shell",
+            "contact_position_m": [
+              0.19265,
+              0.55888,
+              0.19765
+            ],
+            "distance_from_beak_tip_m": 0.00716
+          }
+        },
+        {
+          "event": "exiting",
+          "time_s": 92.36,
+          "round": 2
+        },
+        {
+          "event": "chase_started",
+          "time_s": 95.28,
+          "round": 2
+        },
+        {
+          "event": "stand_started",
+          "time_s": 96.72,
+          "round": 2,
+          "duck": "duck2",
+          "clearance_m": 0.32208
+        },
+        {
+          "event": "standing_ready",
+          "time_s": 97.18,
+          "round": 2,
+          "duck": "duck2",
+          "upright_cosine": 0.99609,
+          "angular_speed": 1.28277
+        },
+        {
+          "event": "chase",
+          "time_s": 100.32,
+          "round": 2
+        },
+        {
+          "event": "returning",
+          "time_s": 122.96,
+          "round": 2
+        },
+        {
+          "event": "seat_settled",
+          "time_s": 128.4,
+          "round": 2,
+          "duck": "duck5",
+          "upright_cosine": 0.99937,
+          "angular_speed": 0.02346
+        },
+        {
+          "event": "escaped",
+          "time_s": 130.22,
+          "round": 2,
+          "winner": "duck5"
+        },
+        {
+          "event": "complete",
+          "time_s": 130.22,
+          "round": 2
+        }
+      ],
+      "neutral_navigation": false,
+      "disabled_tag_gesture": false,
+      "scores": {
+        "duck0": 1,
+        "duck1": 0,
+        "duck2": 0,
+        "duck3": 0,
+        "duck4": 0,
+        "duck5": 1
+      },
+      "elapsed_s": 130.24,
+      "control_steps": 6512,
+      "policy_calls": {
+        "duck0": 6512,
+        "duck1": 6512,
+        "duck2": 6512,
+        "duck3": 6512,
+        "duck4": 6512,
+        "duck5": 6512
+      },
+      "mode_calls": {
+        "duck0": {
+          "walk": 3561,
+          "sit": 2951
+        },
+        "duck1": {
+          "sit": 6512
+        },
+        "duck2": {
+          "sit": 4837,
+          "stand": 23,
+          "walk": 1652
+        },
+        "duck3": {
+          "sit": 6512
+        },
+        "duck4": {
+          "sit": 6512
+        },
+        "duck5": {
+          "sit": 2063,
+          "stand": 35,
+          "walk": 4414
+        }
+      },
+      "joint_target_range_rad": {
+        "duck0": [
+          -1.52138,
+          1.57126
+        ],
+        "duck1": [
+          -1.53637,
+          1.59039
+        ],
+        "duck2": [
+          -1.52768,
+          1.58483
+        ],
+        "duck3": [
+          -1.54257,
+          1.59539
+        ],
+        "duck4": [
+          -1.45811,
+          1.56243
+        ],
+        "duck5": [
+          -1.73136,
+          1.78326
+        ]
+      },
+      "assistance": "No fixed bases, tethers, external forces, or balance assistance. XML PD actuators; not BAM.",
+      "costumes": "Non-colliding visual overalls/caps; 20 mg passive rotor per duck, spun only by initial reset velocity.",
+      "distance_m": {
+        "duck0": 12.6865,
+        "duck1": 0.1065,
+        "duck2": 6.2114,
+        "duck3": 0.1053,
+        "duck4": 0.096,
+        "duck5": 16.4264
+      },
+      "minimum_upright_cosine": {
+        "duck0": 0.990509863948918,
+        "duck1": 0.9890709794590371,
+        "duck2": 0.9895473699110258,
+        "duck3": 0.990352603009052,
+        "duck4": 0.9925029875044316,
+        "duck5": 0.9728131842076292
+      },
+      "watch_head_yaw_range_rad": {
+        "duck0": [
+          -1.349,
+          1.346
+        ],
+        "duck1": [
+          -1.348,
+          1.351
+        ],
+        "duck2": [
+          -1.348,
+          1.351
+        ],
+        "duck3": [
+          -1.348,
+          1.351
+        ],
+        "duck4": [
+          -1.35,
+          1.351
+        ],
+        "duck5": [
+          -1.346,
+          0.008
+        ]
+      }
+    }
+  ],
+  "variation_summary": {
+    "completed_runs": 20,
+    "runs": 20,
+    "completed_rounds": 40
+  },
+  "versions": {
+    "python": "3.12.14",
+    "mujoco": "3.12.0",
+    "onnxruntime": "1.29.0"
+  },
+  "source_sha256": {
+    "costumes.py": "1b72e8eda5f79489ca834e238c4cb1acca024c5fae41203676cfcbf74c334807",
+    "flock.py": "93ffbb51e722cd613db97223c1b616c2fce9f1a328f462e3b5874ba59d768e70",
+    "full_game.py": "c88639c35f7aed2893fe3ab8cfe7fb07408a594034fcc8b018fecccddd28e0ae",
+    "full_render.py": "ad8c1fca585a359c7be6b5422dc011eb11f0a2328cea559cded282b0ab790af7",
+    "main.py": "cc60097e4fd89d16c1b55e2c61167a6c3bb2f3ecc43af74792ed6642c8cf6100",
+    "package.py": "8c6bd74bbae97f1512acb74b58427ce6a8bc2b2259cf53a34d59d2d5cb966608",
+    "policy.py": "17ef47bc103dda3aa3b7e8f65e657ab4dc1ae76cbd2b1032210721f756ee132a",
+    "render.py": "b4e9a25dc0e14f527b3ccec7db0bd82ec1f7df035f5d2ed795a0b6d68240cea8",
+    "simulation.py": "49112ab9872ff900547d1e3ff6506278c138d56c0c345fffdcfbda3e19a68bfc",
+    "test_game.py": "349df6aef4a328ba6fe02185fad7cccbe0c07f76ca1f2a8b665fb8598e24e0f4"
+  },
+  "checkpoint_sha256": {
+    "BEST_alpha_sitstand.onnx": "c6c40e35e726eabd803d633e090d112994f469921152448367953fbaf9799bc8",
+    "BEST_alpha_walking.onnx": "e36332d383997d51401897734cd3e79cf5038406feddb18b4d57ecfb141daa6c"
+  }
+}

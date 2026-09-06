@@ -15,5 +15,15 @@ else
   fi
   duck_python="$PWD/.venv/bin/python"
 fi
+# Use EGL on a headless Linux host; physics-only runs need no graphics context.
+render_video=true
+for duck_arg in "$@"; do
+  if [[ "$duck_arg" == "--no-video" ]]; then render_video=false; fi
+done
+export OPENBLAS_NUM_THREADS="${OPENBLAS_NUM_THREADS:-1}"
+export OMP_NUM_THREADS="${OMP_NUM_THREADS:-1}"
+if [[ "$(uname -s)" == "Linux" && -z "${DISPLAY:-}" && -z "${WAYLAND_DISPLAY:-}" && "$render_video" == true ]]; then
+  export MUJOCO_GL="${MUJOCO_GL:-egl}"
+fi
 "$duck_python" -m unittest -v test_game
 "$duck_python" main.py "$@"

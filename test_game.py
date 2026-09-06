@@ -37,6 +37,14 @@ class GameTests(unittest.TestCase):
         self.assertEqual(sum(r['scores'].values()),2)
         self.assertTrue(any(e['event']=='caught_clear' for e in r['events']))
 
+    def test_previous_linux_failure_seeds_finish_two_rounds(self):
+        for seed in (7,8,9,12,15):
+            with self.subTest(seed=seed):
+                r=run_episode(seed,2);validate_report(r)
+                self.assertEqual(r['result'],'complete')
+                self.assertEqual(len(r['rounds']),2)
+                self.assertGreater(min(r['minimum_upright_cosine'].values()),.9)
+
     def test_watchers_remain_seated_and_turn_real_joints(self):
         w=Flock();w.start();minimum=1.;angles={r:[] for r in w.roles[1:]}
         for i in range(1500):
